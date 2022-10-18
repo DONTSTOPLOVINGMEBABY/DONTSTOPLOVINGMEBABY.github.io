@@ -25,4 +25,11 @@
 
 .welcome {
     color: blue;
+    text-align: center;
+}
+
+.waterfall {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
