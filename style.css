@@ -28,8 +28,12 @@
     text-align: center;
 }
 
-.waterfall {
+.center {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.center li {
+    list-style: none;
 }
