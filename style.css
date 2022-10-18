@@ -14,7 +14,7 @@
 .menu li {
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 0;
+    flex-basis: 1;
 }
 
 .coming-soon div{
