@@ -1,3 +1,6 @@
 [submodule "top-projects/odin-recipes"]
 	path = top-projects/odin-recipes
 	url = git@github.com:DONTSTOPLOVINGMEBABY/odin-recipes.git
+[submodule "top-projects/OTP---Landing-Page"]
+	path = top-projects/OTP---Landing-Page
+	url = git@github.com:DONTSTOPLOVINGMEBABY/OTP---Landing-Page.git
