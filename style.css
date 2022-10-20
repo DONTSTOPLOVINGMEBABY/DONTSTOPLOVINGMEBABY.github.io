@@ -15,11 +15,6 @@
     margin-bottom: 18px;
 }
 
-.coming-soon div{
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-}
 
 .welcome {
     color: blue;
