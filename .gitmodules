@@ -4,7 +4,4 @@
 [submodule "top-projects/OTP---Landing-Page"]
 	path = top-projects/OTP---Landing-Page
 	url = git@github.com:DONTSTOPLOVINGMEBABY/OTP---Landing-Page.git
-
-[submodule "rock-paper-scissors-TOP"]
-	path = rock-paper-scissors-TOP
-	url = git@github.com:DONTSTOPLOVINGMEBABY/rock-paper-scissors-TOP.git
+	
