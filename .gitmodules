@@ -7,3 +7,6 @@
 [submodule "top-projects/odin-recipes"]
 	path = top-projects/odin-recipes
 	url = git@github.com:DONTSTOPLOVINGMEBABY/odin-recipes.git
+[submodule "top-projects/etch-a-sketch-TOP"]
+	path = top-projects/etch-a-sketch-TOP
+	url = git@github.com:DONTSTOPLOVINGMEBABY/etch-a-sketch-TOP.git
