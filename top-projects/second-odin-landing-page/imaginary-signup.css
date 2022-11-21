@@ -20,7 +20,7 @@ body {
     flex: 3 0 0; 
     height: 100%;
     width: 100%;
-    background-image: url("../../FS-JS-Images/green-leaves.jpg");
+    background-image: url("./green-leaves.jpg");
     background-position: center;
     background-size:cover;
 
