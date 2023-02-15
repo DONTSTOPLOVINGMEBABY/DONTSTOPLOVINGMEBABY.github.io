@@ -1,0 +1,15 @@
+[submodule "top-projects/rock-paper-scissors-TOP"]
+	path = top-projects/rock-paper-scissors-TOP
+	url = git@github.com:DONTSTOPLOVINGMEBABY/rock-paper-scissors-TOP.git
+[submodule "top-projects/OTP---Landing-Page"]
+	path = top-projects/OTP---Landing-Page
+	url = git@github.com:DONTSTOPLOVINGMEBABY/OTP---Landing-Page.git
+[submodule "top-projects/odin-recipes"]
+	path = top-projects/odin-recipes
+	url = git@github.com:DONTSTOPLOVINGMEBABY/odin-recipes.git
+[submodule "top-projects/etch-a-sketch-TOP"]
+	path = top-projects/etch-a-sketch-TOP
+	url = git@github.com:DONTSTOPLOVINGMEBABY/etch-a-sketch-TOP.git
+[submodule "top-projects/calculator-TOP"]
+	path = top-projects/calculator-TOP
+	url = git@github.com:DONTSTOPLOVINGMEBABY/calculator-TOP.git
