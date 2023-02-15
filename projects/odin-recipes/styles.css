@@ -1,0 +1,30 @@
+body {
+    background-color: #C8EDFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    font-size: 18px;
+}
+ 
+body.lasagna {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body.ice-cream {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body.potato {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body.brisket {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
