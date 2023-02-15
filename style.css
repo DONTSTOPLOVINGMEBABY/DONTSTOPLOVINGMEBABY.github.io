@@ -1,37 +1,7 @@
-.menu {
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    flex-wrap: wrap;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-  
-}
-
-.center li {
-    margin-bottom: 18px;
-}
-
-.index {
+body {
     height: 100vh;
-    margin: 0;
-}
-
-.welcome {
-    color: blue;
-    text-align: center;
-}
-
-.center {
+    width: 100vw;
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.center li {
-    list-style: none;
 }
