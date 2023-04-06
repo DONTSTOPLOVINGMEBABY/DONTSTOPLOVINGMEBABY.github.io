@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Fake-YouTube/static/css/main.7268f4a1.css",
-    "main.js": "/Fake-YouTube/static/js/main.9b7d1d02.js",
+    "main.js": "/Fake-YouTube/static/js/main.18d05591.js",
     "static/media/default-channel-photo.jpg": "/Fake-YouTube/static/media/default-channel-photo.9bde1f5351508d47da63.jpg",
     "static/media/plane.svg": "/Fake-YouTube/static/media/plane.0e0cd5b1fe7a7eebadced20d95ebb760.svg",
     "static/media/palm-tree.svg": "/Fake-YouTube/static/media/palm-tree.4fb64a43f2a497af6d909cdcd3b4a617.svg",
     "static/media/history.svg": "/Fake-YouTube/static/media/history.165f4d38e3872035c0f1627a2583bfce.svg",
     "static/media/search-icon.svg": "/Fake-YouTube/static/media/search-icon.b8936a8e329c8f53a58eaf4895beea5a.svg",
-    "static/media/default-profile-picture.svg": "/Fake-YouTube/static/media/default-profile-picture.ac97e3115bf4b41d1c5363cc9c206638.svg",
+    "static/media/default-profile-picture.svg": "/Fake-YouTube/static/media/default-profile-picture.e4cf2fe0d27af3a4bfe2594ff9397d34.svg",
     "static/media/user-uploads-icon.svg": "/Fake-YouTube/static/media/user-uploads-icon.fab318b50f96222d59a37218c02373c9.svg",
     "static/media/about-icon.svg": "/Fake-YouTube/static/media/about-icon.a7576c141a2aee33aaf25c26424d053d.svg",
     "static/media/notifications-bell.svg": "/Fake-YouTube/static/media/notifications-bell.f79ab194f5c985e4649c7bac82a88e7e.svg",
@@ -36,10 +36,10 @@
     "static/media/up-arrow.svg": "/Fake-YouTube/static/media/up-arrow.791cae595c90d0d1bbfe6d69e6ba1490.svg",
     "static/media/subscriptions-icon.svg": "/Fake-YouTube/static/media/subscriptions-icon.afda28a06acb0613cd11b097de608159.svg",
     "main.7268f4a1.css.map": "/Fake-YouTube/static/css/main.7268f4a1.css.map",
-    "main.9b7d1d02.js.map": "/Fake-YouTube/static/js/main.9b7d1d02.js.map"
+    "main.18d05591.js.map": "/Fake-YouTube/static/js/main.18d05591.js.map"
   },
   "entrypoints": [
     "static/css/main.7268f4a1.css",
-    "static/js/main.9b7d1d02.js"
+    "static/js/main.18d05591.js"
   ]
 }
