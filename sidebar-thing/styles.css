@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Chokokutai");
+@import url("https://fonts.googleapis.com/css?family=Bebas Neue");
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway";
+    background: linear-gradient(to right top, #034c4c, #013939);
+    /* font-family: "Chokokutai"; */
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.top-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px;
+    align-items: center;
+}
+
+.nav-links {
+    font-weight: 700;
+    list-style: none;
+    display: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.name-title {
+    padding: 0;
+    margin: 0;
+    color: #ff7530;
+    font-family: "Bebas Neue";
+    font-size: 4rem;
+}
+
+.small-margin-right {
+    margin-right: 8px;
+}
+
+.nav-link {
+    color: #ff8749;
+    text-decoration-color: #ff8749;
+    text-decoration-line: none;
+    font-size: .75rem;
+}
+
+.desktop-side-navigation {
+    height: 270px;
+    max-width: 100px;
+    position: sticky;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.side-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.side-nav-link {
+    height: 100px;
+    width: 100px;
+    margin-left: -50px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    transition: ease-in .1s transform;
+    transition: ease-in .2s margin;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.side-nav-link:hover {
+    transform: scale(1.2);
+    transform-origin: left;
+    margin-left: -12px;
+}
+
+.side-nav-link.github {
+    background-color: rgb(21, 21, 21);
+
+}
+
+.side-nav-link.linkedin {
+    background-color: #0B65C2;
+}
+
+.side-nav-link.resume {
+    background-color: rgb(241, 241, 241);
+}
+
+.hover-text {
+    display: none;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    margin: 2px 0 0 0;
+    animation: roll-resume 1s forwards;
+    font-family: "Bebas Neue";
+}
+
+
+.side-nav-link.resume:hover .hover-text {
+    display: flex;
+}
+
+.side-nav-link.linkedin:hover .hover-text {
+    display: flex;
+}
+
+.side-nav-link.github:hover .hover-text {
+    display: flex;
+}
+
+.spell-cell {
+    height: 14px;
+    padding: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spell-cell.linkedin {
+    color: #FFFFFF;
+}
+
+.spell-cell.resume {
+    color: black;
+}
+
+.spell-cell.github {
+    color: #ff8749;
+}
+
+
+
+@keyframes appear-resume {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width : 480px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .desktop-side-navigation {
+        display: none;
+    }
+
+    .name-title {
+        font-size: 1rem;
+    }
+}
+
+
+/* 
+Natural Pallette 
+
+#034c4c
+#00aaad
+#ebfdfc
+#f1f1e6
+
+
+#034c4c --> Background 
+#9ad8d7 --> something
+#ff8749 --> Buttons 
+#f1f1e6 --> Most of fonts
+
+
+*/ 
