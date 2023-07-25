@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.fe73e44b.css",
+    "main.js": "/memory-game/static/js/main.018dc5b2.js",
+    "static/media/bentley.svg": "/memory-game/static/media/bentley.5c1fd11c7c5cc6aed66639e47533ce44.svg",
+    "static/media/porsche.svg": "/memory-game/static/media/porsche.b4975ac4193eb3cfca69244c1423fa6d.svg",
+    "static/media/ferrari.svg": "/memory-game/static/media/ferrari.95cb15d00e48e72f94cf9ec861bff733.svg",
+    "static/media/cadillac.svg": "/memory-game/static/media/cadillac.b3c1c5986342c22237276b2ef36249a3.svg",
+    "static/media/lamborghini.svg": "/memory-game/static/media/lamborghini.4c6953a7ed2aa994f94bd8b8f7b18259.svg",
+    "static/media/ford.svg": "/memory-game/static/media/ford.41659f342cf53d5a72fbba082e980279.svg",
+    "static/media/mclaren.svg": "/memory-game/static/media/mclaren.1c27d77056c675899cef3f626a5a3b4c.svg",
+    "static/media/fiat.svg": "/memory-game/static/media/fiat.efc5273b4060afe9cd6952f6a7aeeaf1.svg",
+    "static/media/bmw.svg": "/memory-game/static/media/bmw.d9f4cb28c2c072487c63711faa2910dc.svg",
+    "static/media/honda.svg": "/memory-game/static/media/honda.7f23d9ec1852fb12ede092e61d41f4c2.svg",
+    "static/media/rolls-royce.svg": "/memory-game/static/media/rolls-royce.16aba30113e5019d64a680cc8c244db5.svg",
+    "static/media/volvo.svg": "/memory-game/static/media/volvo.ebf5a966d3032df6f650a5f4eede47ba.svg",
+    "static/media/subaru.svg": "/memory-game/static/media/subaru.96fc192ffecb1270141a526b21ab0327.svg",
+    "static/media/volkswagen.svg": "/memory-game/static/media/volkswagen.15c70f8ed8108159f799b071280cb9a0.svg",
+    "static/media/toyota.svg": "/memory-game/static/media/toyota.472bf65696bc4110850b01dbfe593299.svg",
+    "static/media/lexus.svg": "/memory-game/static/media/lexus.2a85c86b8d4e5c31d6de48efd12aa04b.svg",
+    "static/media/gmc.svg": "/memory-game/static/media/gmc.0b49cdbe535fc74fa8c972bc465470e5.svg",
+    "static/media/github-logo.svg": "/memory-game/static/media/github-logo.cf7fbe07239bf33976e213b264aaa5cd.svg",
+    "static/media/tesla.svg": "/memory-game/static/media/tesla.7a9847ef586185ddec845b5a1e4b58d3.svg",
+    "index.html": "/memory-game/index.html",
+    "static/media/mercedes.svg": "/memory-game/static/media/mercedes.1f012646c11ada5593f4ce0bdb458f8d.svg",
+    "static/media/chevrolet.svg": "/memory-game/static/media/chevrolet.f6d74fa486d73cff7dcdd8ab7b548620.svg",
+    "main.fe73e44b.css.map": "/memory-game/static/css/main.fe73e44b.css.map",
+    "main.018dc5b2.js.map": "/memory-game/static/js/main.018dc5b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe73e44b.css",
+    "static/js/main.018dc5b2.js"
+  ]
+}
