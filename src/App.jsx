@@ -1,12 +1,14 @@
-import { useState } from 'react'
+import { AppPageStyled } from './styles/app.styled'
+import Header from './components/header/header'
+import WelcomeAnimation from './components/welcome-animation/welcome-animation'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      Hi!
-    </div>
+    <AppPageStyled>
+      <Header/>
+      <WelcomeAnimation />
+    </AppPageStyled>
   )
 }
 
