@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.30843200.css",
+    "main.js": "/shopping-cart/static/js/main.d6ddd62d.js",
+    "static/media/bf3.jpg": "/shopping-cart/static/media/bf3.7af35daef2676ab8f814.jpg",
+    "static/media/modern-warfare-2.jpg": "/shopping-cart/static/media/modern-warfare-2.ad31d852c834346cc41e.jpg",
+    "static/media/san-andreas-gta.jpg": "/shopping-cart/static/media/san-andreas-gta.fb5cf9836611b4b5a151.jpg",
+    "static/media/red-dead.jpg": "/shopping-cart/static/media/red-dead.49b67d69f2dfa4d7cad6.jpg",
+    "static/media/gta4.jpg": "/shopping-cart/static/media/gta4.3af7607637a60aad39e7.jpg",
+    "static/media/gtav.jpg": "/shopping-cart/static/media/gtav.90e8f8ea88f7d014381e.jpg",
+    "static/media/uncharted-3.jpg": "/shopping-cart/static/media/uncharted-3.76f88e5fd6555a7ade72.jpg",
+    "static/media/ac3.jpg": "/shopping-cart/static/media/ac3.37ee2545271459aa5395.jpg",
+    "static/media/call-of-duty-black-ops.jpg": "/shopping-cart/static/media/call-of-duty-black-ops.6950f7d35d35c8f8fe20.jpg",
+    "static/media/ac-brotherhood.jpeg": "/shopping-cart/static/media/ac-brotherhood.7054eba6f091bd80dd93.jpeg",
+    "static/media/nfs-hot-pursuit.jpg": "/shopping-cart/static/media/nfs-hot-pursuit.89be95cc72fd17ac331c.jpg",
+    "static/media/ac-black-flag.jpg": "/shopping-cart/static/media/ac-black-flag.026f5707dd8648cf2e10.jpg",
+    "static/media/lego-star-wars-complete-saga.jpg": "/shopping-cart/static/media/lego-star-wars-complete-saga.6f79f80850bafb4882a1.jpg",
+    "static/media/battle-front-2.jpg": "/shopping-cart/static/media/battle-front-2.af20e5d98772a38c4de8.jpg",
+    "static/media/the-force-unleashed.jpg": "/shopping-cart/static/media/the-force-unleashed.2ec07f6e5ca1e0e63c2c.jpg",
+    "static/media/the-last-of-us.jpg": "/shopping-cart/static/media/the-last-of-us.3314213c0b4a92bcbef5.jpg",
+    "static/media/halo-reach.jpg": "/shopping-cart/static/media/halo-reach.1dd34978cdd88794867e.jpg",
+    "static/media/black-add-to-cart.svg": "/shopping-cart/static/media/black-add-to-cart.610ed3eab0fab120e50b9727fe1199cc.svg",
+    "static/media/green-add-to-cart.svg": "/shopping-cart/static/media/green-add-to-cart.86ddf55fd3efbfbe7c688db5664b7b8e.svg",
+    "static/media/github-logo.svg": "/shopping-cart/static/media/github-logo.cf7fbe07239bf33976e213b264aaa5cd.svg",
+    "index.html": "/shopping-cart/index.html",
+    "static/media/search-icon.svg": "/shopping-cart/static/media/search-icon.1968d156e100beb4e474b7e7caad901b.svg",
+    "main.30843200.css.map": "/shopping-cart/static/css/main.30843200.css.map",
+    "main.d6ddd62d.js.map": "/shopping-cart/static/js/main.d6ddd62d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30843200.css",
+    "static/js/main.d6ddd62d.js"
+  ]
+}
