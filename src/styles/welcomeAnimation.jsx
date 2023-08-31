@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const WelcomeAnimationStyled = styled.section`
     width: 100%;
-    height: 50%;
+    height: 100% ; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ const WelcomeAnimationStyled = styled.section`
 
 const MessageWrapper = styled.div`
     height: 300px;
-    width: 300px;
+    width: 100%;
     position: relative;
     overflow: hidden;
 `
@@ -18,10 +18,10 @@ const MessageWrapper = styled.div`
 const CenterMessage = styled.div`
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: fit-content;
     width: 100%;
-    font-size: 2rem;
-    color: white;
+    font-size: 5rem;
+    color: #F8EFD4;
 `
 
 
