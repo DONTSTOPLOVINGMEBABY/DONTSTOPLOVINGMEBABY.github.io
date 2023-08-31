@@ -3,6 +3,7 @@ import styled from "styled-components"
 const SectionSplitterStyled = styled.div`
     display: flex;
     width: 100%;
+    height: fit-content;
 `
 
 const BlankFiller = styled.div`

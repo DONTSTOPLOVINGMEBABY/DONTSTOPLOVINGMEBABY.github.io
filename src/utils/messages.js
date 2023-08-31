@@ -1,9 +1,16 @@
 const messages = [
     'Hello', 
     'Hola', 
-    'Message1', 
-    'Message2', 
-    'Message3', 
+    'Bonjour',   
+    '你好', 
+    'こんにちは', 
+    'مرحبًا',
+    'Привет', 
+    'Salve', 
+    '안녕하세요', 
+    'Aloha',
+    'Hallå',  
+    'ياخشىمۇسىز'
 ]
 
 export default messages

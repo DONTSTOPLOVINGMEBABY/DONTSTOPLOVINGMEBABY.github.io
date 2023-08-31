@@ -7,4 +7,15 @@ const AppPageStyled = styled.main`
     flex-direction: column;
 `
 
-export { AppPageStyled } 
+const LandingPage = styled.section`
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+`
+
+
+export { 
+    AppPageStyled, 
+    LandingPage,
+} 
