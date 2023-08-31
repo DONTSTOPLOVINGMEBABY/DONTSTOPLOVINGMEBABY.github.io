@@ -11,6 +11,7 @@ const HeaderStyled = styled.header`
 const Name = styled.h1`
     padding: 0;
     margin: 0;
+    font-size: 2.5rem;
 `
 
 const NavBar = styled.nav`
@@ -26,8 +27,9 @@ const NavItem = styled.button`
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 1.4rem;
-    margin: 12px;
+    font-size: 1rem;
+    text-decoration: underline;
+    margin: 6px;
     color: #F8EFD4;
 `
 
