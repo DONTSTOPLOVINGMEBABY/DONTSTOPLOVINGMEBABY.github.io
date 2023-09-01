@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const SectionSplitterStyled = styled.div`
+const SectionSplitterStyled = styled.header`
     display: flex;
     width: 100%;
     height: fit-content;
@@ -8,6 +8,11 @@ const SectionSplitterStyled = styled.div`
 
 const BlankFiller = styled.div`
     width: 50%;
+
+    @media (max-width : 850px) {
+        display: none;
+    }
+
 `
 
 const NameSection = styled.div`
@@ -15,6 +20,9 @@ const NameSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width : 850px) {
+        width: 100%;
+    }
 `
 
 const Name = styled.div`

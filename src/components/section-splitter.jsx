@@ -7,14 +7,28 @@ import {
 } from "../styles/section-splitter.styled"
 
 
-function SectionSplitter ({ name }) {
+function SectionSplitter ({ name, side }) {
     return (
         <SectionSplitterStyled>
-            <BlankFiller/>
-            <NameSection>
-                <Name>{name}</Name>
-                <Line />
-            </NameSection>
+            {side === 'left' ?
+            <>
+                <NameSection>
+                    <Name>{name}</Name>
+                    <Line />
+                </NameSection>
+                <BlankFiller/>
+
+            </> :
+            <> 
+                <BlankFiller/>
+                <NameSection>
+                    <Name>{name}</Name>
+                    <Line />
+                </NameSection>
+            </>
+            }
+
+            
         </SectionSplitterStyled>
     )
 }
