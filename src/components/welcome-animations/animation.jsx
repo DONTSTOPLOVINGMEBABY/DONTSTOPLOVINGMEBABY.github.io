@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import { CenterMessage } from "../../styles/welcomeAnimation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 
 function Animation ({ message }) {
 
     const messageRef = useRef()
     const [offsetHeight, setOffsetHeight] = useState(0)
+    let counter = 0 
 
     const messageVariants = {
       initial: { 
@@ -18,8 +19,7 @@ function Animation ({ message }) {
         }
       },
       animate: { 
-        y: `calc(50% - 90px)`, 
-        // y: '50%', 
+        y : `calc(50% - ${offsetHeight}px)`,  
         opacity: 1,
         transition: { 
           y: { duration: 4, ease: [.42, 0, .58, 1] },
@@ -36,10 +36,10 @@ function Animation ({ message }) {
       }
     }
 
-    // useEffect(() => {
-    //   setOffsetHeight(messageRef.current.offsetHeight)
-    //   console.log(messageRef.current.offsetHeight)
-    // })
+    useLayoutEffect(() => {
+      console.log('hi')
+      setOffsetHeight(messageRef.current.offsetHeight)
+    })
 
     return (
         <motion.div

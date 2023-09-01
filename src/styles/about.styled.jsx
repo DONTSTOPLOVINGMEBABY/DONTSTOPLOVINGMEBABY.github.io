@@ -8,7 +8,6 @@ const AboutPageStyled = styled.section`
     margin-top: 30px;
     display: flex;
     flex-direction: column ; 
-    margin-bottom: 400px;
 `
 
 const AboutInfo = styled.div`
@@ -48,10 +47,16 @@ const DescribeMyself = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+
+    @media (max-width: 850px){
+        width: 100%;
+        justify-content: center;
+    }
+
 `
 
 const Bio = styled.article`
-    font-size: 1;
+    font-size: 1.15rem;
     line-height: 2rem;
     flex: 1;
     text-align: left;
