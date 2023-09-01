@@ -1,8 +1,9 @@
 import { AppPageStyled } from './styles/app.styled'
-import Header from './components/header/header'
+import Header from './components/header'
 import WelcomeAnimation from './components/welcome-animations/welcome-animation'
-import AboutSection from './components/about-section/about'
+import AboutSection from './components/about'
 import { LandingPage } from './styles/app.styled'
+import ProjectSection from './components/projects/project'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <WelcomeAnimation />
       </LandingPage>
       <AboutSection />
+      <ProjectSection/>
     </AppPageStyled>
   )
 }
