@@ -6,14 +6,14 @@ import {
     Bio, 
     ScrollerContainer,
     DescribeMyself,  
-} from "../../styles/about.styled"
-import SectionSplitter from "../section-splitter"
-import ScrollingText from "../scroll-text"
+} from "../styles/about.styled"
+import SectionSplitter from "./section-splitter"
+import ScrollingText from "./scroll-text"
 
 function AboutSection () {
     return (
         <AboutPageStyled id="about">
-            <SectionSplitter name="About" />
+            <SectionSplitter name="About" side="right" />
             <AboutInfo>
                 <WrapPhoto>
                     <PhotoOfMe src="https://hjacobs-rest-api-production.up.railway.app/henryjacobs/me" alt="me!"/>

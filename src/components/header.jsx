@@ -3,7 +3,7 @@ import {
     Name, 
     NavBar, 
     NavItem, 
-} from "../../styles/header.styled"
+} from "../styles/header.styled"
 
 function Header () {
 
