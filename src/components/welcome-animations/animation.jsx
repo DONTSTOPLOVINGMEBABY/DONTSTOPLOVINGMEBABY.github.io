@@ -18,7 +18,7 @@ function Animation ({ message }) {
         }
       },
       animate: { 
-        y: `calc(50% - ${offsetHeight/2}px)`, 
+        y: `calc(50% - 90px)`, 
         // y: '50%', 
         opacity: 1,
         transition: { 
@@ -36,9 +36,10 @@ function Animation ({ message }) {
       }
     }
 
-    useEffect(() => {
-      setOffsetHeight(messageRef.current.offsetHeight)
-    })
+    // useEffect(() => {
+    //   setOffsetHeight(messageRef.current.offsetHeight)
+    //   console.log(messageRef.current.offsetHeight)
+    // })
 
     return (
         <motion.div
