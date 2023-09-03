@@ -5,7 +5,7 @@ function ScrollingText({ text, direction }) {
     return (
         <ScrollingTextStyled direction={direction}>
             <span>
-                {Array(8).fill(text).join(' ')}
+                {Array(12).fill(text).join(' ')}
             </span>
         </ScrollingTextStyled>
     )

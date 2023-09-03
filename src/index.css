@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 
 body {
   margin: 0;
-  font-family: 'Roboto' ; 
+  font-family: 'Poppins' ; 
   background-color: #1B1B1B;
   color: #F8EFD4;
 }

@@ -16,10 +16,10 @@ function Header () {
         <HeaderStyled>
             <Name>Henry Jacobs</Name>
             <NavBar>
-                <NavItem onClick={scrollToAbout}>About</NavItem>
-                <NavItem onClick={scrollToSkills}>Skills</NavItem>
-                <NavItem onClick={scrollToProjects}>Projects</NavItem>
-                <NavItem onClick={scrollToContact}>Contact</NavItem>
+                <NavItem onClick={scrollToAbout}>ABOUT</NavItem>
+                <NavItem onClick={scrollToSkills}>SKILLS</NavItem>
+                <NavItem onClick={scrollToProjects}>PROJECTS</NavItem>
+                <NavItem onClick={scrollToContact}>CONTACT</NavItem>
             </NavBar>
         </HeaderStyled>
     )

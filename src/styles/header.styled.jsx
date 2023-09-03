@@ -6,12 +6,14 @@ const HeaderStyled = styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #ffffff;
 `
 
 const Name = styled.h1`
     padding: 0;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Poppins Bold 700';
 `
 
 const NavBar = styled.nav`
@@ -30,7 +32,7 @@ const NavItem = styled.button`
     font-size: 1rem;
     text-decoration: underline;
     margin: 6px;
-    color: #F8EFD4;
+    color: #ffffff;
 `
 
 export { 

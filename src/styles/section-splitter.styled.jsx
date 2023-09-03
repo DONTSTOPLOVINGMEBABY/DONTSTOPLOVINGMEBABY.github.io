@@ -4,6 +4,7 @@ const SectionSplitterStyled = styled.header`
     display: flex;
     width: 100%;
     height: fit-content;
+    font-family: 'Poppins Bold 700';
 `
 
 const BlankFiller = styled.div`

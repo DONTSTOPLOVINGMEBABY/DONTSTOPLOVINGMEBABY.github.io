@@ -37,7 +37,6 @@ function Animation ({ message }) {
     }
 
     useLayoutEffect(() => {
-      console.log('hi')
       setOffsetHeight(messageRef.current.offsetHeight)
     })
 

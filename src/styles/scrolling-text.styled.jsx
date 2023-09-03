@@ -20,9 +20,8 @@ const scrollTextToRight = css`
 const ScrollingTextStyled = styled.div`
     display: flex;
     align-items: center;
-    width: 300px;
-    overflow: hidden;
-
+    width: 100%;
+    overflow: hidden; 
     margin-top: 30px;
     position: relative;
     color: white;
@@ -58,7 +57,7 @@ const ScrollingTextStyled = styled.div`
         word-spacing: 14px;
         filter: brightness(1.5);
         font-size: 24px;
-        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-family: 'Lora';
         white-space: nowrap;
         ${props => props.direction === 'toLeft' && scrollTextToLeft} ; 
         ${props => props.direction === 'toRight' && scrollTextToRight} ; 

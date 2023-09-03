@@ -2,12 +2,13 @@ import styled, { keyframes } from "styled-components"
 
 const WelcomeAnimationStyled = styled.section`
     width: 100%;
-    height: 100% ; 
+    height: calc(100% - 56px); 
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     flex-direction: column;
+    color: #ffffff;
 `
 
 const MessageWrapper = styled.div`
@@ -15,6 +16,7 @@ const MessageWrapper = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
+    font-family: 'Poppins Bold 700';
 `
 
 const CenterMessage = styled.div`
@@ -23,12 +25,18 @@ const CenterMessage = styled.div`
     height: fit-content;
     width: 100%;
     font-size: 5rem;
-    color: #F8EFD4;
+    color: #ffffff;
 `
 
 const ScrollDownStyled = styled.div`
     position: absolute;
     bottom: 80px;
+    cursor: pointer;
+
+    @media (max-width: 500px) {
+        bottom: 145px;
+    }
+
 `
 
 const ScrollDownContainer = styled.div`
@@ -36,7 +44,8 @@ const ScrollDownContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 1.5rem;
+    position: relative ; 
 `
 
 const moveChevron = keyframes`
@@ -60,11 +69,12 @@ const moveChevron = keyframes`
 
 const Chevron = styled.div`
     position: absolute;
-    width: 2.1rem;
-    height: 0.48rem;
+    width: 1.05rem;
+    height: 0.24rem;
     opacity: 0;
     transform: scale(0.3);
     animation: ${moveChevron} 3s ease-out infinite;
+    color: #ffffff;
 
     &:first-child {
         animation: ${moveChevron} 3s ease-out 1s infinite;
@@ -80,7 +90,7 @@ const Chevron = styled.div`
         top: 0;
         height: 100%;
         width: 50%;
-        background: #F8EFD4;
+        background: #ffffff ; 
     }
 
     &:before {

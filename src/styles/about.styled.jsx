@@ -8,6 +8,7 @@ const AboutPageStyled = styled.section`
     margin-top: 30px;
     display: flex;
     flex-direction: column ; 
+    color: #ffffff;
 `
 
 const AboutInfo = styled.div`
@@ -21,11 +22,10 @@ const AboutInfo = styled.div`
 `
 
 const WrapPhoto = styled.div`
-    flex: 1;
-    width: fit-content;
+    width: 50%;
     margin-right: 30px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     @media (max-width: 850px) {
         width: 100%;
@@ -34,7 +34,7 @@ const WrapPhoto = styled.div`
 `
 
 const PhotoOfMe = styled.img`
-    height: 100%;
+    width: 100%;
     max-height: 500px;
     border-radius: 20px;
     object-fit: contain;
@@ -74,7 +74,7 @@ const ScrollerContainer = styled.div`
     flex-direction: column;
 
     h3 {
-        font-family: 'Big Shoulders Stencil Display', cursive;
+        font-family: 'Lora Bold 700';
         font-size: 24px;
         font-weight: 400;
         text-align: center;
