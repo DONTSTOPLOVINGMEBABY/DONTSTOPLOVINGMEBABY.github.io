@@ -72,7 +72,51 @@ const ProjectDescription = styled.div`
     width: 100%;
     text-align: left;
     color: #999999;
-    padding: 8px 0px;
+    padding: 12px 0px;
+`
+
+const BuiltWithIcons = styled.div`
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+`
+
+const IconBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
+const IndividualIcon = styled.img`
+    height: 70px;
+    width: 70px;
+`
+
+const IconName = styled.span`   
+    margin-top: 4px;
+    font-family: 'Poppins';
+    font-weight: 700;
+`
+
+const ProjectLinks = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 18px;
+`
+
+const ProjectLink = styled.a`
+    height: 40px;
+    width: 200px;
+    border: 2px white solid;
+    color: #ffffff;
+    text-decoration: none ;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 `
 
 
@@ -87,4 +131,10 @@ export {
     ProjectMainTitle, 
     ProjectSubtitle, 
     ProjectDescription, 
+    BuiltWithIcons, 
+    IconBox, 
+    IndividualIcon, 
+    IconName, 
+    ProjectLinks, 
+    ProjectLink, 
 } 
