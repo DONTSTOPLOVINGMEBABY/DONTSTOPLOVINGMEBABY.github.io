@@ -1,16 +1,18 @@
 import { 
-    OSFTDemoStyled,
-    OSFTVideo, 
+    VideoDemoStyled,
+    VideoDemo, 
 } from "../../styles/projects.styled"
 
-function OSFTDemo () {
+function ProjectVideoDemo ({
+    watch_url, 
+}) {
     return (
-        <OSFTDemoStyled>
-                <OSFTVideo muted controls loop autoPlay>
-                    <source src="https://hjacobs-rest-api-production.up.railway.app/osft/raw-video-example" type="video/mp4"/>
-                </OSFTVideo>
-        </OSFTDemoStyled>
+        <VideoDemoStyled>
+                <VideoDemo muted controls loop autoPlay>
+                    <source src={watch_url} type="video/mp4"/>
+                </VideoDemo>
+        </VideoDemoStyled>
     )
 }
 
-export default OSFTDemo
+export default ProjectVideoDemo

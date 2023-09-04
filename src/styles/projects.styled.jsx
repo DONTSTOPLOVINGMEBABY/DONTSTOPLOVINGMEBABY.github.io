@@ -13,13 +13,13 @@ const ProjectSectionStyled = styled.section`
 const IndividualProject = styled.div`
     height: fit-content;
     display: flex;
-    margin-top: 24px;
+    margin-top: ${props => props.marginTop ? props.marginTop : '24px' } ;
     @media (max-width: 850px) {
         flex-direction: column;
     }
 `
 
-const OSFTDemoStyled = styled.div`
+const VideoDemoStyled = styled.div`
     width: 50%;
     height: 100%;
     @media (max-width: 850px) {
@@ -28,7 +28,7 @@ const OSFTDemoStyled = styled.div`
     padding-left: 12px;
 `
 
-const OSFTVideo = styled.video`
+const VideoDemo = styled.video`
     width: 100%;
     border-radius: 10px;
     @media (max-width: 850px) {
@@ -133,8 +133,8 @@ const CodeExampleStyled = styled.div`
 export { 
     ProjectSectionStyled,
     IndividualProject,
-    OSFTDemoStyled, 
-    OSFTVideo, 
+    VideoDemoStyled, 
+    VideoDemo, 
     ProjectDetails, 
     ProjectTitles, 
     ProjectMainTitle, 

@@ -10,7 +10,7 @@ import {
     ProjectLinks, 
 } from "../../styles/projects.styled"
 import TechStackIcon from "./tech-stack-icon"
-import OSFTDemo from "./osft-video"
+import ProjectVideoDemo from "./osft-video"
 import express_svg from "../../assets/express.svg"
 import javascript_svg from "../../assets/javascript.svg"
 import mongodb_svg from "../../assets/mongodb.svg"
@@ -49,7 +49,9 @@ function OSFTWebApp () {
                         <ProjectLink target="_blank" href="https://github.com/DONTSTOPLOVINGMEBABY/OSFT-Web-Application">View Source Code</ProjectLink>
                     </ProjectLinks>
                 </ProjectDetails>
-                <OSFTDemo />
+                <ProjectVideoDemo 
+                watch_url="https://hjacobs-rest-api-production.up.railway.app/osft/raw-video-example"
+                />
             </IndividualProject>
     )
 }
