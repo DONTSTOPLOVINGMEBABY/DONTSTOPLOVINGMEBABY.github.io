@@ -24,7 +24,7 @@ function OSFTWebApp () {
                 <ProjectDetails>
                     <ProjectTitles>
                         <ProjectMainTitle>
-                            OSFT (Open Source Feature Toggles)
+                            Open Source Feature Toggles (OSFT)
                         </ProjectMainTitle>
                         <ProjectSubtitle>
                             Full Stack Web App

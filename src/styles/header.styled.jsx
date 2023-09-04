@@ -33,6 +33,7 @@ const NavItem = styled.button`
     text-decoration: underline;
     margin: 6px;
     color: #ffffff;
+    text-align: center;
 `
 
 export { 
