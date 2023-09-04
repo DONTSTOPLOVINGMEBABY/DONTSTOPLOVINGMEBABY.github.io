@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const ProjectSectionStyled = styled.section`
     width: 100%;
-    height: 500px;
+    height: fit-content;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ const ProjectSectionStyled = styled.section`
 `
 
 const IndividualProject = styled.div`
-    height: 100%;
+    height: fit-content;
     display: flex;
     margin-top: 24px;
     @media (max-width: 850px) {
@@ -31,6 +31,9 @@ const OSFTDemoStyled = styled.div`
 const OSFTVideo = styled.video`
     width: 100%;
     border-radius: 10px;
+    @media (max-width: 850px) {
+        margin-top: 20px;
+    }
 `
 
 const ProjectDetails = styled.div`
@@ -119,6 +122,12 @@ const ProjectLink = styled.a`
     border-radius: 5px;
 `
 
+const CodeExampleStyled = styled.div`
+    width: 50%;
+    padding-left: 12px;
+`
+
+
 
 
 export { 
@@ -137,4 +146,5 @@ export {
     IconName, 
     ProjectLinks, 
     ProjectLink, 
+    CodeExampleStyled, 
 } 
