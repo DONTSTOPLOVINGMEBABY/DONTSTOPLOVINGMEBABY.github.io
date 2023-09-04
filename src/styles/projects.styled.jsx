@@ -55,7 +55,7 @@ const ProjectMainTitle = styled.h2`
     font-size: 2.25rem;
     color: inherit;
     margin-bottom: 4px;
-    font-family: 'Poppins Bold 700';
+    font-family: 'Poppins';
     margin-top: 0px;
 `
 
@@ -65,7 +65,7 @@ const ProjectSubtitle = styled.h3`
     margin-top: 4px;
     margin-bottom: 0px;
     text-decoration: none;
-    font-family: 'Poppins Bold 700';
+    font-family: 'Poppins';
 `
 
 const ProjectDescription = styled.div`

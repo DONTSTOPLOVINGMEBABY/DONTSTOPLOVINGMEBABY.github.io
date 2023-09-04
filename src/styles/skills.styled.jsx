@@ -27,7 +27,7 @@ const SkillCategory = styled.div`
 `
 
 const CategoryTitle = styled.h2`
-    font-family: 'Poppins 700 Bold';
+    font-family: 'Poppins';
     height: fit-content;
     margin-bottom: 12px;
     width: 100%;

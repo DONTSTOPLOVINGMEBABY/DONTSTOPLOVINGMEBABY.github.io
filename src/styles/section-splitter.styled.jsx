@@ -4,7 +4,7 @@ const SectionSplitterStyled = styled.header`
     display: flex;
     width: 100%;
     height: fit-content;
-    font-family: 'Poppins Bold 700';
+    font-family: 'Poppins';
     margin-top: ${props => props.$margintop ? props.$margintop : '0px' } ;
 `
 

@@ -13,7 +13,7 @@ const Name = styled.h1`
     padding: 0;
     margin: 0;
     font-size: 2rem;
-    font-family: 'Poppins Bold 700';
+    font-family: 'Poppins';
 `
 
 const NavBar = styled.nav`
