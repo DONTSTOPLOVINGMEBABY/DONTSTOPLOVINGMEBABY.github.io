@@ -15,16 +15,8 @@ const Skills = styled.div`
     width: 100%;
     padding-top: 20px;
     display: flex;
+    justify-content: space-around;
 `
-
-// const SkillCategory = styled.div`
-//     width: 300px;
-//     height: 400px;
-//     border-radius: 10px;
-//     background-color: black;  
-//     display: flex;
-//     flex-direction: column;
-// `
 
 const SkillCategory = styled.div`
     width: 300px;
