@@ -7,9 +7,9 @@ import {
 } from "../styles/section-splitter.styled"
 
 
-function SectionSplitter ({ name, side }) {
+function SectionSplitter ({ name, side, $margintop }) {
     return (
-        <SectionSplitterStyled>
+        <SectionSplitterStyled $margintop={$margintop}>
             {side === 'left' ?
             <>
                 <NameSection>

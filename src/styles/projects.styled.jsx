@@ -6,14 +6,13 @@ const ProjectSectionStyled = styled.section`
     padding: 0 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 300px;
     color: #ffffff;
 `
 
 const IndividualProject = styled.div`
     height: fit-content;
     display: flex;
-    margin-top: ${props => props.marginTop ? props.marginTop : '24px' } ;
+    margin-top: ${props => props.$margintop ? props.$margintop : '24px' } ;
     @media (max-width: 850px) {
         flex-direction: column;
     }

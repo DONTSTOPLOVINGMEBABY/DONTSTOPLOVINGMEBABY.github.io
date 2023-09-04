@@ -17,7 +17,7 @@ import react_svg from "../../assets/react.svg"
 
 function FYTExample () {
     return (
-        <IndividualProject marginTop='40px'>
+        <IndividualProject $margintop='40px'>
             <ProjectDetails>
                 <ProjectTitles>
                     <ProjectMainTitle>

@@ -5,6 +5,7 @@ const SectionSplitterStyled = styled.header`
     width: 100%;
     height: fit-content;
     font-family: 'Poppins Bold 700';
+    margin-top: ${props => props.$margintop ? props.$margintop : '0px' } ;
 `
 
 const BlankFiller = styled.div`

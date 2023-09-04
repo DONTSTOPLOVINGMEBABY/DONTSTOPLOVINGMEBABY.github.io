@@ -4,6 +4,7 @@ import WelcomeAnimation from './components/welcome-animations/welcome-animation'
 import AboutSection from './components/about'
 import { LandingPage } from './styles/app.styled'
 import ProjectSection from './components/projects/project'
+import SkillsSection from './components/skills/skills'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       </LandingPage>
       <AboutSection />
       <ProjectSection/>
+      <SkillsSection />
     </AppPageStyled>
   )
 }
