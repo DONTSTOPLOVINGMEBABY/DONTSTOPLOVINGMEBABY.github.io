@@ -19,8 +19,8 @@ function ProgrammingLanguages () {
             <CategorySkills>
                 <SkillRow>
                     <SingleSkill
-                    icon={javascript_svg}
-                    name="Javascript"
+                    icon={bash_svg}
+                    name="Bash"
                     />
                     <SingleSkill 
                     icon={python_svg}
@@ -29,18 +29,18 @@ function ProgrammingLanguages () {
                 </SkillRow>
                 <SkillRow>
                     <SingleSkill
-                    icon={bash_svg}
-                    name="Bash"
-                    />
-                    <SingleSkill
-                    icon={c_svg}
-                    name="C"
+                    icon={javascript_svg}
+                    name="Javascript"
                     />
                 </SkillRow>
                 <SkillRow>
                     <SingleSkill
                     icon={racket_svg}
                     name="Racket"
+                    />
+                    <SingleSkill
+                    icon={c_svg}
+                    name="C"
                     />
                 </SkillRow>
             </CategorySkills>

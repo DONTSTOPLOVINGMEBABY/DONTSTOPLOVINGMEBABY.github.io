@@ -59,6 +59,7 @@ const SkillEntry = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+    text-align: center;
 `
 
 const SkillIcon = styled.img`

@@ -4,7 +4,7 @@ import {
 } from "../../styles/skills.styled"
 import SectionSplitter from "../section-splitter"
 import ProgrammingLanguages from "./programming-languages"
-import FrameworksSection from './frameworks'
+import FrameworksSection from './technologies'
 import FullSectionSplitter from "../full-section-splitter"
 import MiscSkillsSection from "./misc-skills"
 
