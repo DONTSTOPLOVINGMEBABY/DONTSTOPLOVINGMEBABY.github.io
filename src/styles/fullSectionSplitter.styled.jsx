@@ -8,6 +8,7 @@ const FullSectionSplitterStyled = styled.header`
     justify-content: center;
     font-family: 'Poppins';
     margin-top: ${props => props.$margintop ? props.$margintop : '0px' } ;
+    z-index: 10;
 `
 
 const LineFiller = styled.div`

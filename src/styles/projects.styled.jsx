@@ -12,7 +12,7 @@ const ProjectSectionStyled = styled.section`
 const IndividualProject = styled.div`
     height: fit-content;
     display: flex;
-    margin-top: ${props => props.$margintop ? props.$margintop : '24px' } ;
+    margin-top: ${props => props.$margintop ? props.$margintop : '20px' } ;
     @media (max-width: 850px) {
         flex-direction: column;
     }
@@ -38,7 +38,8 @@ const VideoDemo = styled.video`
     box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),
     0px 35px 22px 0px rgba(0,0,0,0.16);
     @media (max-width: 850px) {
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 `
 
@@ -55,7 +56,6 @@ const ProjectDetails = styled.div`
 const ThinColumn = styled.div`
     width: 50%;
     display: flex;
-    margin-top: 20px;
     @media (max-width: 850px) {
         width: 100%;
     }
@@ -87,6 +87,7 @@ const ProjectSubtitle = styled.h3`
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: 600;
+    z-index: 10;
 `
 
 const BuiltWith = styled.h3`
