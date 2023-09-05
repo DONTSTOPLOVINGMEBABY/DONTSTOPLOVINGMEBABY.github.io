@@ -4,7 +4,7 @@ import styled from "styled-components"
 const AboutPageStyled = styled.section`
     width: 100%;
     height: fit-content ; 
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     margin-top: 30px;
     display: flex;
     flex-direction: column ; 
@@ -47,7 +47,6 @@ const DescribeMyself = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
-
     @media (max-width: 850px){
         width: 100%;
         justify-content: center;
@@ -56,18 +55,19 @@ const DescribeMyself = styled.div`
 `
 
 const Bio = styled.article`
-    font-size: 1.15rem;
     line-height: 2rem;
     flex: 1;
     text-align: left;
     color: #999999;
+    font-size: 1rem;
+    font-family: 'Poppins';
     @media (max-width: 850px) {
         text-align: center;
     }
 `
 
 const ScrollerContainer = styled.div`
-    margin: 30px 0;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +78,7 @@ const ScrollerContainer = styled.div`
         font-size: 24px;
         font-weight: 400;
         text-align: center;
+        margin-top: 30px;
     }
 
 `
