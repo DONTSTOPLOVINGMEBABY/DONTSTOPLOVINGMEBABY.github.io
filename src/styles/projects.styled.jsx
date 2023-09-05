@@ -121,12 +121,14 @@ const IconBox = styled.div`
 const IndividualIcon = styled.img`
     height: 40px;
     width: 40px;
+    &:hover {
+        transform: scale(1.05);
+    }
 `
 
 const IconName = styled.span`   
     margin-top: 4px;
     font-family: 'Poppins';
-    font-weight: 700;
 `
 
 const ProjectLinks = styled.div`

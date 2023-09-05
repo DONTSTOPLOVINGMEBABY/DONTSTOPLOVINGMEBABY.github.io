@@ -71,8 +71,8 @@ const SkillEntry = styled.div`
 `
 
 const SkillIcon = styled.img`
-    height: 50px;
-    width: 50px ; 
+    height: 40px;
+    width: 40px ; 
 
     &:hover {
         transform: scale(1.05);
