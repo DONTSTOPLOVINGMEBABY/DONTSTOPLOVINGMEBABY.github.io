@@ -135,6 +135,8 @@ const CodeExampleStyled = styled.div`
 
 const CodeExamplePicture = styled.img`
     width: 100%;
+    box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),
+    0px 35px 22px 0px rgba(0,0,0,0.16);
 `
 
 
