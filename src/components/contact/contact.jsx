@@ -15,7 +15,7 @@ import linkedin_svg from '../../assets/linkedin.svg'
 
 function ContactSection () {
     return (
-        <ContactSectionStyled>
+        <ContactSectionStyled id="contact">
             <FullSectionSplitter name="Contact"/>
             <ContactInformation>
                 <Section>

@@ -8,7 +8,7 @@ import FYTExample from "./fyt-example"
 
 function ProjectSection () {
     return (
-        <ProjectSectionStyled>
+        <ProjectSectionStyled id="projects">
             <SectionSplitter name="Projects" side="left" />
             <OSFTWebApp />
             <OSFTReactSDK /> 
