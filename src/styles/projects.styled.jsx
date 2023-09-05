@@ -24,25 +24,16 @@ const VideoDemoStyled = styled.div`
     @media (max-width: 850px) {
         width: 100%;
     }
-    padding-left: 12px;
-    /* box-shadow: 10px 8px 10px 5px orange; */
-    position: relative;
-    transform-style: preserve-3d;
-    &::before {
-        content: "";
-        position: absolute;
-        inset: -5px;
-        transform: translate3d(10px, 8px, -1px); /* (X, Y, Z) */
-        background-image: linear-gradient(to right, #1B1B1B, black);
-        filter: blur(10px);
-        border-radius: 10px;
-    }
-
+    /* padding-left: 12px; */
+        
+    /* border-radius: 10px; */
 `
 
 const VideoDemo = styled.video`
-    width: 100%;
     border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),
+    0px 35px 22px 0px rgba(0,0,0,0.16);
     @media (max-width: 850px) {
         margin-top: 20px;
     }
