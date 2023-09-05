@@ -85,7 +85,10 @@ const SkillTitle = styled.span`
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 4px;
+    @media (max-width: 500px) {
+        font-size: smaller;
+    }
 `
 
 

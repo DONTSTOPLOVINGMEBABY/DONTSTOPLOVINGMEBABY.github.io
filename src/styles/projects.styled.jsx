@@ -47,14 +47,18 @@ const ProjectDetails = styled.div`
     flex-direction: column;
     width: 80%;
     justify-content: space-around;
+    @media (max-width: 850px) {
+        width: 100%;
+    }
 `
 
 const ThinColumn = styled.div`
     width: 50%;
     display: flex;
     margin-top: 20px;
-    /* justify-content: center;
-    align-items: center; */
+    @media (max-width: 850px) {
+        width: 100%;
+    }
 `
 
 
@@ -129,6 +133,9 @@ const IndividualIcon = styled.img`
 const IconName = styled.span`   
     margin-top: 4px;
     font-family: 'Poppins';
+    @media (max-width: 500px) {
+        font-size: smaller;
+    }
 `
 
 const ProjectLinks = styled.div`
@@ -141,7 +148,7 @@ const ProjectLinks = styled.div`
 
 const ProjectLink = styled.a`
     height: 40px;
-    width: 200px;
+    width: 175px;
     border: 2px white solid;
     color: #ffffff;
     text-decoration: none ;  
@@ -149,6 +156,14 @@ const ProjectLink = styled.a`
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    transition: .25s ease-in;
+    transition-property: background-color color border;
+
+    &:hover { 
+        background-color: white;
+        color: #1B1B1B;
+        border: 2px white #1B1B1B;
+    }
 `
 
 const CodeExampleStyled = styled.div`
@@ -156,11 +171,15 @@ const CodeExampleStyled = styled.div`
     padding-left: 12px;
     @media (max-width: 850px) {
         width: 100%;
+        padding: 0px;
+        margin-top: 30px;
     }
 `
 
 const CodeExamplePicture = styled.img`
     width: 100%;
+    height: fit-content;
+    overflow: hidden;
     box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),
     0px 35px 22px 0px rgba(0,0,0,0.16);
 `
