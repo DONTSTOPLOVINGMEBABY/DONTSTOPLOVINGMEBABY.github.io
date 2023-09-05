@@ -6,6 +6,7 @@ import { LandingPage } from './styles/app.styled'
 import ProjectSection from './components/projects/project'
 import SkillsSection from './components/skills/skills'
 import ContactSection from './components/contact/contact'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <ProjectSection/>
       <SkillsSection />
       <ContactSection />
+      <Footer />
     </AppPageStyled>
   )
 }

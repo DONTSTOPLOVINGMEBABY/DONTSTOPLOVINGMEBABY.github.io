@@ -16,7 +16,7 @@ import linkedin_svg from '../../assets/linkedin.svg'
 function ContactSection () {
     return (
         <ContactSectionStyled>
-            <FullSectionSplitter $margintop="30px" name="Contact"/>
+            <FullSectionSplitter name="Contact"/>
             <ContactInformation>
                 <Section>
                     <Prompt>Send me an email at</Prompt>
