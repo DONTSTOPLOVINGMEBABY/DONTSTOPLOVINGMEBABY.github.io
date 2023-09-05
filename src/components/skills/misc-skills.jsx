@@ -48,9 +48,9 @@ function MiscSkillsSection () {
                     icon={railway_svg}
                     name="Railway"
                     />
-                      <SingleSkill
+                    <SingleSkill
                     icon={styled_components_svg}
-                    name="Styled"
+                    name="Styled Components"
                     />
                 </SkillRow>
             </CategorySkills>

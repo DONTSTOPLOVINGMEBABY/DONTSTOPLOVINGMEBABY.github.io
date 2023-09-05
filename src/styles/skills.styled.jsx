@@ -77,6 +77,7 @@ const SkillTitle = styled.span`
     width: 100%;
     font-size: 1rem;
     text-align: center;
+    margin-top: 8px;
 `
 
 
