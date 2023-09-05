@@ -11,8 +11,7 @@ import MiscSkillsSection from "./misc-skills"
 function SkillsSection () {
     return (
         <SkillsSectionStyled>
-            {/* <FullSectionSplitter $margintop="40px" name="Skills" /> */}
-            <SectionSplitter $margintop="40px" name="Skills" side="right"/>
+            <FullSectionSplitter $margintop="40px" name="Skills" />
             <Skills>
                 <ProgrammingLanguages />
                 <FrameworksSection />   

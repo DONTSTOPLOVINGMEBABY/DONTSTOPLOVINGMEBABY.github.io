@@ -10,11 +10,11 @@ function FullSectionSplitter ({
 }) {
     return (
         <FullSectionSplitterStyled $margintop={$margintop}>
-            <LineFiller/>
+            <LineFiller />
             <NameSection>
                 {name}
             </NameSection>
-            <LineFiller />
+            <LineFiller/>
         </FullSectionSplitterStyled>
     )
 }

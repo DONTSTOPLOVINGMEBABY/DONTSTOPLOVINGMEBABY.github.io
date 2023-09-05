@@ -5,20 +5,21 @@ const FullSectionSplitterStyled = styled.header`
     width: 100%;
     height: fit-content;
     align-items: center;
+    justify-content: center;
     font-family: 'Poppins';
     margin-top: ${props => props.$margintop ? props.$margintop : '0px' } ;
 `
 
 const LineFiller = styled.div`
     flex: 1;
+    height: 1px;
+    background-color: white;
 `
 
 const NameSection = styled.h2`
     width: fit-content;
-    padding: 0 10px;
     margin: 0px;
-    height: 1px;
-    background-color: white;
+    padding: 0 30px;
 `
 
 export {

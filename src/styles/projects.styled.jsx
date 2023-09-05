@@ -25,6 +25,19 @@ const VideoDemoStyled = styled.div`
         width: 100%;
     }
     padding-left: 12px;
+    /* box-shadow: 10px 8px 10px 5px orange; */
+    position: relative;
+    transform-style: preserve-3d;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: -5px;
+        transform: translate3d(10px, 8px, -1px); /* (X, Y, Z) */
+        background-image: linear-gradient(to right, #1B1B1B, black);
+        filter: blur(10px);
+        border-radius: 10px;
+    }
+
 `
 
 const VideoDemo = styled.video`
