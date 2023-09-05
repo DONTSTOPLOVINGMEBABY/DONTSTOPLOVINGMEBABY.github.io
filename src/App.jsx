@@ -5,6 +5,7 @@ import AboutSection from './components/about'
 import { LandingPage } from './styles/app.styled'
 import ProjectSection from './components/projects/project'
 import SkillsSection from './components/skills/skills'
+import ContactSection from './components/contact/contact'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <AboutSection />
       <ProjectSection/>
       <SkillsSection />
+      <ContactSection />
     </AppPageStyled>
   )
 }

@@ -6,7 +6,6 @@ const SkillsSectionStyled = styled.section`
     padding: 0 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 300px;
     color: #ffffff;
 `
 
@@ -65,6 +64,11 @@ const SkillEntry = styled.div`
 const SkillIcon = styled.img`
     height: 50px;
     width: 50px ; 
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
 `
 
 const SkillTitle = styled.span`
