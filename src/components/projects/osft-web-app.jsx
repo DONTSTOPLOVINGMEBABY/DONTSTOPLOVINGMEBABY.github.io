@@ -8,6 +8,8 @@ import {
     BuiltWithIcons, 
     ProjectLink, 
     ProjectLinks, 
+    ThinColumn, 
+    BuiltWith, 
 } from "../../styles/projects.styled"
 import TechStackIcon from "./tech-stack-icon"
 import ProjectVideoDemo from "./osft-video"
@@ -21,6 +23,7 @@ import redis_svg from "../../assets/redis.svg"
 function OSFTWebApp () {
     return (
         <IndividualProject>
+            <ThinColumn>
                 <ProjectDetails>
                     <ProjectTitles>
                         <ProjectMainTitle>
@@ -33,9 +36,9 @@ function OSFTWebApp () {
                     <ProjectDescription>
                             OSFT is an open source feature flagging service that allows developers to embed highly performant and scalable feature toggles directly into their Javascript and React Applications. 
                     </ProjectDescription>
-                    <ProjectSubtitle>
+                    <BuiltWith>
                         Built With
-                    </ProjectSubtitle>
+                    </BuiltWith>
                     <BuiltWithIcons>
                         <TechStackIcon icon={mongodb_svg} name="MongoDB"/>
                         <TechStackIcon icon={redis_svg} name="Redis"/>
@@ -49,10 +52,11 @@ function OSFTWebApp () {
                         <ProjectLink target="_blank" href="https://github.com/DONTSTOPLOVINGMEBABY/OSFT-Web-Application">View Source Code</ProjectLink>
                     </ProjectLinks>
                 </ProjectDetails>
-                <ProjectVideoDemo 
-                watch_url="https://hjacobs-rest-api-production.up.railway.app/osft/raw-video-example"
-                />
-            </IndividualProject>
+            </ThinColumn>
+            <ProjectVideoDemo 
+            watch_url="https://hjacobs-rest-api-production.up.railway.app/osft/raw-video-example"
+            />
+        </IndividualProject>
     )
 }
 

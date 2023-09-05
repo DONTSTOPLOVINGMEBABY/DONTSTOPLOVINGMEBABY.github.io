@@ -20,7 +20,10 @@ const IndividualProject = styled.div`
 
 const VideoDemoStyled = styled.div`
     width: 50%;
-    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @media (max-width: 850px) {
         width: 100%;
     }
@@ -42,9 +45,18 @@ const VideoDemo = styled.video`
 const ProjectDetails = styled.div`
     display: flex;
     flex-direction: column;
-    height: 100% ; 
-    flex: 1;
+    width: 80%;
+    justify-content: space-around;
 `
+
+const ThinColumn = styled.div`
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: center;
+    align-items: center; */
+`
+
 
 const ProjectTitles = styled.div`
     display: flex;
@@ -56,7 +68,7 @@ const ProjectTitles = styled.div`
 `
 
 const ProjectMainTitle = styled.h2`
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     color: inherit;
     margin-bottom: 4px;
     font-family: 'Poppins';
@@ -64,27 +76,39 @@ const ProjectMainTitle = styled.h2`
 `
 
 const ProjectSubtitle = styled.h3`
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: inherit;
     margin-top: 4px;
     margin-bottom: 0px;
     text-decoration: none;
     font-family: 'Poppins';
+    font-weight: 600;
 `
 
+const BuiltWith = styled.h3`
+    font-size: 1rem;
+    color: inherit;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+`
+
+
 const ProjectDescription = styled.div`
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 2rem;
     width: 100%;
     text-align: left;
     color: #999999;
-    padding: 12px 0px;
+    margin: 30px 0px;
 `
 
 const BuiltWithIcons = styled.div`
     display: flex;
     justify-content: space-around;
-    margin-top: 16px;
+    margin: 30px 0px;
 `
 
 const IconBox = styled.div`
@@ -95,8 +119,8 @@ const IconBox = styled.div`
 `
 
 const IndividualIcon = styled.img`
-    height: 70px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
 `
 
 const IconName = styled.span`   
@@ -158,5 +182,7 @@ export {
     ProjectLinks, 
     ProjectLink, 
     CodeExampleStyled, 
-    CodeExamplePicture
+    CodeExamplePicture, 
+    ThinColumn,
+    BuiltWith, 
 } 
