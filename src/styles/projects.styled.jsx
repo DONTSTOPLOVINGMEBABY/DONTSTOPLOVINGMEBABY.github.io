@@ -126,6 +126,9 @@ const CodeExampleStyled = styled.div`
     padding-left: 12px;
 `
 
+const CodeExamplePicture = styled.img`
+    width: 100%;
+`
 
 
 
@@ -146,4 +149,5 @@ export {
     ProjectLinks, 
     ProjectLink, 
     CodeExampleStyled, 
+    CodeExamplePicture
 } 
