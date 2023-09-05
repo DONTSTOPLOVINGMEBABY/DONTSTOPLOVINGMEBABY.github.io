@@ -15,6 +15,11 @@ const Skills = styled.div`
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
+    @media (max-width: 970px) {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 `
 
 const SkillCategory = styled.div`
@@ -23,6 +28,9 @@ const SkillCategory = styled.div`
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    @media (max-width: 970px) {
+        margin: 10px 0px;
+    }
 `
 
 const CategoryTitle = styled.h2`
