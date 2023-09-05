@@ -16,7 +16,7 @@ const MessageWrapper = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
-    font-family: 'Poppins';
+    font-family: 'Noto Sans';
 `
 
 const CenterMessage = styled.div`
