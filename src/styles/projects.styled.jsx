@@ -128,6 +128,9 @@ const ProjectLink = styled.a`
 const CodeExampleStyled = styled.div`
     width: 50%;
     padding-left: 12px;
+    @media (max-width: 850px) {
+        width: 100%;
+    }
 `
 
 const CodeExamplePicture = styled.img`

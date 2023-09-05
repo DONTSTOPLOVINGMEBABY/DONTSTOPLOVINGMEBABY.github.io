@@ -33,12 +33,18 @@ const Section = styled.div`
 const Prompt = styled.span`
     font-size: 1.2rem;
     height: fit-content;
+    @media (max-width: 550px) {
+        font-size: 1rem;
+    }
 `
 
 const Email = styled.span`
     font-weight: 700;
     height: fit-content;
     font-size: 2rem;
+    @media (max-width: 550px) {
+        font-size: 1.5rem;
+    }
 `   
 
 const Or = styled.span`
