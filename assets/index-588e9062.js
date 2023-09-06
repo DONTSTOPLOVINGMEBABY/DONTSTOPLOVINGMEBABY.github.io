@@ -487,6 +487,7 @@ Error generating stack: `+o.message+`
         width: 100%;
         padding: 0px;
         margin-top: 30px;
+        justify-content: center;
     }
 `,ap=A.img`
     width: 80%;
