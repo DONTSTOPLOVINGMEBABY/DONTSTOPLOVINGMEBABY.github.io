@@ -176,6 +176,7 @@ const CodeExampleStyled = styled.div`
         width: 100%;
         padding: 0px;
         margin-top: 30px;
+        justify-content: center;
     }
 `
 
