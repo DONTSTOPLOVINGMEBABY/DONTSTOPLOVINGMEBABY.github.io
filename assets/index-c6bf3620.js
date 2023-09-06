@@ -64,9 +64,9 @@ Error generating stack: `+o.message+`
 `,Qf=A.h1`
     padding: 0;
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     letter-spacing: 8px;
-    font-family: 'Alfa Slab One';
+    font-family: 'Poppins';
     font-weight: 400;
 `,Xf=A.nav`
     height: 100%;
@@ -80,7 +80,7 @@ Error generating stack: `+o.message+`
     outline: none;
     cursor: pointer;
     font-size: 1rem;
-    margin: 6px;
+    margin: 12px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
@@ -250,13 +250,16 @@ Error generating stack: `+o.message+`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Lora';
+    font-weight: 700;
 
     h3 {
-        font-family: 'Lora Bold 700';
-        font-size: 24px;
+        font-family: 'Lora';
+        font-size: 1.75rem;
         font-weight: 400;
         text-align: center;
         margin-top: 30px;
+        margin-bottom: 0px;
     }
 
 `,NP=A.header`
@@ -296,9 +299,9 @@ Error generating stack: `+o.message+`
     transform: translateX(-50%);
   }
 `,OP=Ls`
-  animation: ${yy} 11s linear infinite;
+  animation: ${yy} 14s linear infinite;
 `,IP=Ls`
-  animation: ${yy} 11s linear infinite reverse;
+  animation: ${yy} 14s linear infinite reverse;
 `,FP=A.div`
     display: flex;
     align-items: center;
@@ -344,7 +347,7 @@ Error generating stack: `+o.message+`
         ${e=>e.direction==="toLeft"&&OP} ; 
         ${e=>e.direction==="toRight"&&IP} ; 
     }
-`;function lo({text:e,direction:t}){return v.jsx(FP,{direction:t,children:v.jsx("span",{children:Array(12).fill(e).join(" ")})})}function zP(){return v.jsxs(RP,{id:"about",children:[v.jsx(gy,{name:"About",side:"right"}),v.jsxs(AP,{children:[v.jsx(LP,{children:v.jsx(DP,{src:"https://hjacobs-rest-api-production.up.railway.app/henryjacobs/me",alt:"me!"})}),v.jsxs(MP,{children:[v.jsx(_P,{children:"My name is Henry Jacobs and I am a Full Stack Developer who is incredibly passionate about computers and the positive impacts they can bring to people's lives! I first started programming at University in 2019 and have been exploring the ins and outs of web development since 2022 with my work on The Odin Project. I'm totally enthralled by computers and learning as much as I possibly can about them from the physical representation of bits to arranging pixels on the screen with HTML and CSS!"}),v.jsxs(VP,{children:[v.jsx("h3",{children:"My Interests Are"}),v.jsx(lo,{text:"Computer Science ·",direction:"toLeft"}),v.jsx(lo,{text:"Economics ·",direction:"toRight"}),v.jsx(lo,{text:"Mathematics ·",direction:"toLeft"}),v.jsx(lo,{text:"Physics ·",direction:"toRight"})]})]})]})]})}const $P=A.section`
+`;function lo({text:e,direction:t}){return v.jsx(FP,{direction:t,children:v.jsx("span",{children:Array(12).fill(e).join(" ")})})}function zP(){return v.jsxs(RP,{id:"about",children:[v.jsx(gy,{name:"About",side:"right"}),v.jsxs(AP,{children:[v.jsx(LP,{children:v.jsx(DP,{src:"https://hjacobs-rest-api-production.up.railway.app/henryjacobs/me",alt:"me!"})}),v.jsxs(MP,{children:[v.jsx(_P,{children:"My name is Henry Jacobs and I am a Full Stack Developer who is passionate about computers and the positive impacts they can bring to people's lives. I first started programming at University in 2019 and have been exploring the ins and outs of web development since 2022 with my work on The Odin Project. I'm totally enthralled by computers and learning as much as I possibly can about them from the physical representation of bits to arranging pixels on the screen with HTML and CSS."}),v.jsxs(VP,{children:[v.jsx("h3",{children:"Interests"}),v.jsx(lo,{text:"Computer Science ·",direction:"toLeft"}),v.jsx(lo,{text:"Finance & Global Economics ·",direction:"toRight"}),v.jsx(lo,{text:"Mathematics ·",direction:"toLeft"}),v.jsx(lo,{text:"Reading ·",direction:"toRight"})]})]})]})]})}const $P=A.section`
     width: 100%;
     height: fit-content;
     padding: 0 20px;
@@ -478,13 +481,15 @@ Error generating stack: `+o.message+`
 `,sp=A.div`
     width: 50%;
     padding-left: 12px;
+    align-items: center;
+    display: flex;
     @media (max-width: 850px) {
         width: 100%;
         padding: 0px;
         margin-top: 30px;
     }
 `,ap=A.img`
-    width: 100%;
+    width: 80%;
     height: fit-content;
     overflow: hidden;
     box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),
@@ -579,7 +584,7 @@ Error generating stack: `+o.message+`
     width: fit-content;
     margin: 0px;
     padding: 0 30px;
-`;function Ry({name:e,$margintop:t}){return v.jsxs(jy,{$margintop:t,children:[v.jsx(Kl,{}),v.jsx(mC,{children:e}),v.jsx(Kl,{})]})}const gC="/assets/docker-3fd830ea.svg",yC="/assets/git-717a57ea.svg",vC="/assets/webpack-5e0a1544.svg",xC="/assets/jest-16490e2d.svg",wC="/assets/styled-components-4b6e786a.svg",SC="/assets/railway-a86197e5.svg";function kC(){return v.jsxs(wc,{children:[v.jsx(Sc,{children:"Miscellanous"}),v.jsxs(kc,{children:[v.jsxs(Dt,{children:[v.jsx(fe,{icon:xC,name:"Jest"}),v.jsx(fe,{icon:Ey,name:"Firebase"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:yC,name:"Git"}),v.jsx(fe,{icon:gC,name:"Docker"}),v.jsx(fe,{icon:vC,name:"Webpack"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:SC,name:"Railway"}),v.jsx(fe,{icon:wC,name:"Styled Components"})]})]})]})}function PC(){return v.jsxs(nC,{id:"skills",children:[v.jsx(Ry,{$margintop:"20px",name:"Skills"}),v.jsxs(rC,{children:[v.jsx(fC,{}),v.jsx(hC,{}),v.jsx(kC,{})]})]})}const CC=A.section`
+`;function Ry({name:e,$margintop:t}){return v.jsxs(jy,{$margintop:t,children:[v.jsx(Kl,{}),v.jsx(mC,{children:e}),v.jsx(Kl,{})]})}const gC="/assets/docker-3fd830ea.svg",yC="/assets/git-717a57ea.svg",vC="/assets/webpack-5e0a1544.svg",xC="/assets/jest-16490e2d.svg",wC="/assets/styled-components-4b6e786a.svg",SC="/assets/railway-a86197e5.svg";function kC(){return v.jsxs(wc,{children:[v.jsx(Sc,{children:"Miscellanous"}),v.jsxs(kc,{children:[v.jsxs(Dt,{children:[v.jsx(fe,{icon:xC,name:"Jest"}),v.jsx(fe,{icon:Ey,name:"Firebase"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:yC,name:"Git"}),v.jsx(fe,{icon:gC,name:"Docker"}),v.jsx(fe,{icon:vC,name:"Webpack"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:SC,name:"Railway"}),v.jsx(fe,{icon:wC,name:"Styled Components"})]})]})]})}function PC(){return v.jsxs(nC,{id:"skills",children:[v.jsx(Ry,{$margintop:"36px",name:"Skills"}),v.jsxs(rC,{children:[v.jsx(fC,{}),v.jsx(hC,{}),v.jsx(kC,{})]})]})}const CC=A.section`
     width: 100%;
     height: fit-content ; 
     padding: 20px;
