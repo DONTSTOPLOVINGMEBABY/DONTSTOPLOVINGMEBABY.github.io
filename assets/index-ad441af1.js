@@ -194,7 +194,7 @@ Error generating stack: `+o.message+`
         `),()=>{document.head.removeChild(u)}},[t]),j.createElement(vP,{isPresent:t,childRef:r,sizeRef:i},j.cloneElement(e,{ref:r}))}const Ma=({children:e,initial:t,isPresent:n,onExitComplete:r,custom:i,presenceAffectsLayout:o,mode:s})=>{const a=fg(wP),l=j.useId(),u=j.useMemo(()=>({id:l,initial:t,isPresent:n,custom:i,onExitComplete:c=>{a.set(c,!0);for(const f of a.values())if(!f)return;r&&r()},register:c=>(a.set(c,!1),()=>a.delete(c))}),o?void 0:[n]);return j.useMemo(()=>{a.forEach((c,f)=>a.set(f,!1))},[n]),j.useEffect(()=>{!n&&!a.size&&r&&r()},[n]),s==="popLayout"&&(e=j.createElement(xP,{isPresent:n},e)),j.createElement(Ms.Provider,{value:u},e)};function wP(){return new Map}function SP(e){return j.useEffect(()=>()=>e(),[])}const Bn=e=>e.key||"";function kP(e,t){e.forEach(n=>{const r=Bn(n);t.set(r,n)})}function PP(e){const t=[];return j.Children.forEach(e,n=>{j.isValidElement(n)&&t.push(n)}),t}const CP=({children:e,custom:t,initial:n=!0,onExitComplete:r,exitBeforeEnter:i,presenceAffectsLayout:o=!0,mode:s="sync"})=>{const a=j.useContext(Xu).forceRender||yP()[0],l=my(),u=PP(e);let c=u;const f=j.useRef(new Map).current,d=j.useRef(c),m=j.useRef(new Map).current,y=j.useRef(!0);if(Ku(()=>{y.current=!1,kP(u,m),d.current=c}),SP(()=>{y.current=!0,m.clear(),f.clear()}),y.current)return j.createElement(j.Fragment,null,c.map(p=>j.createElement(Ma,{key:Bn(p),isPresent:!0,initial:n?void 0:!1,presenceAffectsLayout:o,mode:s},p)));c=[...c];const x=d.current.map(Bn),E=u.map(Bn),g=x.length;for(let p=0;p<g;p++){const h=x[p];E.indexOf(h)===-1&&!f.has(h)&&f.set(h,void 0)}return s==="wait"&&f.size&&(c=[]),f.forEach((p,h)=>{if(E.indexOf(h)!==-1)return;const w=m.get(h);if(!w)return;const S=x.indexOf(h);let P=p;if(!P){const k=()=>{m.delete(h),f.delete(h);const C=d.current.findIndex(V=>V.key===h);if(d.current.splice(C,1),!f.size){if(d.current=u,l.current===!1)return;a(),r&&r()}};P=j.createElement(Ma,{key:Bn(w),isPresent:!1,onExitComplete:k,custom:t,presenceAffectsLayout:o,mode:s},w),f.set(h,P)}c.splice(S,0,P)}),c=c.map(p=>{const h=p.key;return f.has(h)?p:j.createElement(Ma,{key:Bn(p),isPresent:!0,presenceAffectsLayout:o,mode:s},p)}),j.createElement(j.Fragment,null,f.size?c:c.map(p=>j.cloneElement(p)))};function TP({message:e}){const t=j.useRef(),[n,r]=j.useState(0),i={initial:{y:"120%",opacity:.05,transition:{y:{duration:4,ease:[.42,0,.58,1]},opacity:{duration:1,ease:[.42,0,.58,1]}}},animate:{y:`calc(50% - ${n}px)`,opacity:1,transition:{y:{duration:4,ease:[.42,0,.58,1]},opacity:{duration:4,ease:[.42,0,.58,1]}}},exit:{y:"-120%",opacity:.05,transition:{y:{duration:4,ease:[.42,0,.58,1]},opacity:{duration:4,ease:[.42,0,.58,1]}}}};return j.useLayoutEffect(()=>{r(t.current.offsetHeight)}),v.jsx(gP.div,{initial:"initial",animate:"animate",exit:"exit",variants:i,style:{position:"absolute",bottom:"0",height:"100%",width:"100%"},children:v.jsx(sx,{ref:t,children:e})},e)}function EP(){return v.jsx(ax,{children:v.jsxs(lx,{children:[v.jsx(xa,{}),v.jsx(xa,{}),v.jsx(xa,{})]})})}function jP(){const[e,t]=j.useState(0),[n,r]=j.useState(0),[i,o]=j.useState(0);return j.useEffect(()=>{const s=Zf.length,a=setInterval(()=>{t(e+1),r((e+1)%s),o(i+1)},5e3);return()=>clearInterval(a)},[e]),v.jsxs(ix,{children:[v.jsx(ox,{children:v.jsx(CP,{children:v.jsx(TP,{message:Zf[n]},i)})}),v.jsx(EP,{})]})}const RP=A.section`
     width: 100%;
     height: fit-content ; 
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     margin-top: 30px;
     display: flex;
     flex-direction: column ; 
@@ -229,23 +229,23 @@ Error generating stack: `+o.message+`
     display: flex;
     flex-direction: column;
     width: 50%;
-
     @media (max-width: 850px){
         width: 100%;
         justify-content: center;
     }
 
 `,_P=A.article`
-    font-size: 1.15rem;
     line-height: 2rem;
     flex: 1;
     text-align: left;
     color: #999999;
+    font-size: 1rem;
+    font-family: 'Poppins';
     @media (max-width: 850px) {
         text-align: center;
     }
 `,VP=A.div`
-    margin: 30px 0;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,6 +256,7 @@ Error generating stack: `+o.message+`
         font-size: 24px;
         font-weight: 400;
         text-align: center;
+        margin-top: 30px;
     }
 
 `,NP=A.header`
@@ -353,7 +354,7 @@ Error generating stack: `+o.message+`
 `,hc=A.div`
     height: fit-content;
     display: flex;
-    margin-top: ${e=>e.$margintop?e.$margintop:"24px"} ;
+    margin-top: ${e=>e.$margintop?e.$margintop:"20px"} ;
     @media (max-width: 850px) {
         flex-direction: column;
     }
@@ -375,7 +376,8 @@ Error generating stack: `+o.message+`
     box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),
     0px 35px 22px 0px rgba(0,0,0,0.16);
     @media (max-width: 850px) {
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 `,mc=A.div`
     display: flex;
@@ -388,7 +390,6 @@ Error generating stack: `+o.message+`
 `,gc=A.div`
     width: 50%;
     display: flex;
-    margin-top: 20px;
     @media (max-width: 850px) {
         width: 100%;
     }
@@ -413,6 +414,7 @@ Error generating stack: `+o.message+`
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: 600;
+    z-index: 10;
 `,wy=A.h3`
     font-size: 1rem;
     color: inherit;
@@ -568,6 +570,7 @@ Error generating stack: `+o.message+`
     justify-content: center;
     font-family: 'Poppins';
     margin-top: ${e=>e.$margintop?e.$margintop:"0px"} ;
+    z-index: 10;
 `,Kl=A.div`
     flex: 1;
     height: 1px;
@@ -576,7 +579,7 @@ Error generating stack: `+o.message+`
     width: fit-content;
     margin: 0px;
     padding: 0 30px;
-`;function Ry({name:e,$margintop:t}){return v.jsxs(jy,{$margintop:t,children:[v.jsx(Kl,{}),v.jsx(mC,{children:e}),v.jsx(Kl,{})]})}const gC="/assets/docker-3fd830ea.svg",yC="/assets/git-717a57ea.svg",vC="/assets/webpack-5e0a1544.svg",xC="/assets/jest-16490e2d.svg",wC="/assets/styled-components-4b6e786a.svg",SC="/assets/railway-a86197e5.svg";function kC(){return v.jsxs(wc,{children:[v.jsx(Sc,{children:"Miscellanous"}),v.jsxs(kc,{children:[v.jsxs(Dt,{children:[v.jsx(fe,{icon:xC,name:"Jest"}),v.jsx(fe,{icon:Ey,name:"Firebase"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:yC,name:"Git"}),v.jsx(fe,{icon:gC,name:"Docker"}),v.jsx(fe,{icon:vC,name:"Webpack"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:SC,name:"Railway"}),v.jsx(fe,{icon:wC,name:"Styled Components"})]})]})]})}function PC(){return v.jsxs(nC,{id:"skills",children:[v.jsx(Ry,{$margintop:"40px",name:"Skills"}),v.jsxs(rC,{children:[v.jsx(fC,{}),v.jsx(hC,{}),v.jsx(kC,{})]})]})}const CC=A.section`
+`;function Ry({name:e,$margintop:t}){return v.jsxs(jy,{$margintop:t,children:[v.jsx(Kl,{}),v.jsx(mC,{children:e}),v.jsx(Kl,{})]})}const gC="/assets/docker-3fd830ea.svg",yC="/assets/git-717a57ea.svg",vC="/assets/webpack-5e0a1544.svg",xC="/assets/jest-16490e2d.svg",wC="/assets/styled-components-4b6e786a.svg",SC="/assets/railway-a86197e5.svg";function kC(){return v.jsxs(wc,{children:[v.jsx(Sc,{children:"Miscellanous"}),v.jsxs(kc,{children:[v.jsxs(Dt,{children:[v.jsx(fe,{icon:xC,name:"Jest"}),v.jsx(fe,{icon:Ey,name:"Firebase"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:yC,name:"Git"}),v.jsx(fe,{icon:gC,name:"Docker"}),v.jsx(fe,{icon:vC,name:"Webpack"})]}),v.jsxs(Dt,{children:[v.jsx(fe,{icon:SC,name:"Railway"}),v.jsx(fe,{icon:wC,name:"Styled Components"})]})]})]})}function PC(){return v.jsxs(nC,{id:"skills",children:[v.jsx(Ry,{$margintop:"20px",name:"Skills"}),v.jsxs(rC,{children:[v.jsx(fC,{}),v.jsx(hC,{}),v.jsx(kC,{})]})]})}const CC=A.section`
     width: 100%;
     height: fit-content ; 
     padding: 20px;
