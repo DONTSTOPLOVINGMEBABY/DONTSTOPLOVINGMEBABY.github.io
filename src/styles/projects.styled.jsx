@@ -170,6 +170,8 @@ const ProjectLink = styled.a`
 const CodeExampleStyled = styled.div`
     width: 50%;
     padding-left: 12px;
+    align-items: center;
+    display: flex;
     @media (max-width: 850px) {
         width: 100%;
         padding: 0px;
@@ -178,7 +180,7 @@ const CodeExampleStyled = styled.div`
 `
 
 const CodeExamplePicture = styled.img`
-    width: 100%;
+    width: 80%;
     height: fit-content;
     overflow: hidden;
     box-shadow: 0px 45px 65px 0px rgba(0,0,0,1),

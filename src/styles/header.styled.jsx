@@ -15,9 +15,9 @@ const HeaderStyled = styled.header`
 const Name = styled.h1`
     padding: 0;
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     letter-spacing: 8px;
-    font-family: 'Alfa Slab One';
+    font-family: 'Poppins';
     font-weight: 400;
 `
 
@@ -35,7 +35,7 @@ const NavItem = styled.a`
     outline: none;
     cursor: pointer;
     font-size: 1rem;
-    margin: 6px;
+    margin: 12px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;

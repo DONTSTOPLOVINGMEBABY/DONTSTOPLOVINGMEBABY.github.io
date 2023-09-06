@@ -10,11 +10,11 @@ const scrollTextAnim = keyframes`
 `;
 
 const scrollTextToLeft = css`
-  animation: ${scrollTextAnim} 11s linear infinite;
+  animation: ${scrollTextAnim} 14s linear infinite;
 `;
 
 const scrollTextToRight = css`
-  animation: ${scrollTextAnim} 11s linear infinite reverse;
+  animation: ${scrollTextAnim} 14s linear infinite reverse;
 `;
 
 const ScrollingTextStyled = styled.div`

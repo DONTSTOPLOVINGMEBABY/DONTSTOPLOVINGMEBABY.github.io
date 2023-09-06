@@ -72,13 +72,16 @@ const ScrollerContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Lora';
+    font-weight: 700;
 
     h3 {
-        font-family: 'Lora Bold 700';
-        font-size: 24px;
+        font-family: 'Lora';
+        font-size: 1.75rem;
         font-weight: 400;
         text-align: center;
         margin-top: 30px;
+        margin-bottom: 0px;
     }
 
 `
