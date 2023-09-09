@@ -9,8 +9,12 @@ import {
 } from "../styles/about.styled"
 import SectionSplitter from "./section-splitter"
 import ScrollingText from "./scroll-text"
+import { useFlag } from "feature-toggles-react-sdk"
 
 function AboutSection () {
+
+    const about_me_ticker = useFlag('About-Section.my-interests-ticker')
+
     return (
         <AboutPageStyled id="about">
             <SectionSplitter name="About" side="right" />
@@ -22,6 +26,7 @@ function AboutSection () {
                     <Bio>
                         My name is Henry Jacobs and I am a Full Stack Developer who is passionate about computers and the positive impacts they can bring to people's lives. I first started programming at University in 2019 and have been exploring the ins and outs of web development since 2022 with my work on The Odin Project. I'm totally enthralled by computers and learning as much as I possibly can about them from the physical representation of bits to arranging pixels on the screen with HTML and CSS.
                     </Bio>
+                    { about_me_ticker ?  
                     <ScrollerContainer>
                         <h3>Interests</h3>
                         <ScrollingText
@@ -40,7 +45,7 @@ function AboutSection () {
                         text="Reading &middot;"
                         direction="toRight"
                         />
-                    </ScrollerContainer>
+                    </ScrollerContainer> : null } 
                 </DescribeMyself>
             </AboutInfo>
         </AboutPageStyled>
