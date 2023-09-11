@@ -14,15 +14,15 @@ function Animation ({ message }) {
         y: '120%', 
         opacity: 0.05,
         transition: { 
-          y: { duration: 4, ease: [.42, 0, .58, 1] },
-          opacity: { duration: 1, ease: [.42, 0, .58, 1] },
+          y: { duration: 2 },
+          opacity: { duration: 2, ease: [.42, 0, .58, 1] },
         }
       },
       animate: { 
         y : `calc(50% - ${offsetHeight}px)`,  
         opacity: 1,
         transition: { 
-          y: { duration: 4, ease: [.42, 0, .58, 1] },
+          y: { duration: 4, ease: [.42, 1, .58, 1] },
           opacity: { duration: 4, ease: [.42, 0, .58, 1] },
         }
       },
@@ -30,8 +30,8 @@ function Animation ({ message }) {
         y: '-120%', 
         opacity: 0.05,
         transition: { 
-          y: { duration: 4, ease: [.42, 0, .58, 1] },
-          opacity: { duration: 4, ease: [.42, 0, .58, 1] },
+          y: { duration: 2, ease: [.42, 0, .58, 1] },
+          opacity: { duration: 2, ease: [.42, 0, .58, 1] },
         }
       }
     }
