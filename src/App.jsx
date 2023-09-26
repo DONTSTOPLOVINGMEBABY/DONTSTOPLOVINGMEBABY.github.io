@@ -11,7 +11,7 @@ import { FlagProvider } from 'feature-toggles-react-sdk'
 
 const osft_config =  {
   apiKey : import.meta.env.VITE_OSFT_PROD_KEY, 
-  refreshRate : '60s', 
+  refreshRate : '5s', 
 }
 
 function App() {

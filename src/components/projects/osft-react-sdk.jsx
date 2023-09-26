@@ -10,6 +10,7 @@ import {
     ThinColumn,
     BuiltWith, 
 } from "../../styles/projects.styled";
+import { useFlag } from "feature-toggles-react-sdk"
 import CodeExample from "./code-example";
 import TechStackIcon from "./tech-stack-icon";
 import javascript_svg from "../../assets/javascript.svg"
@@ -17,8 +18,12 @@ import react_svg from '../../assets/react.svg'
 import npm_svg from '../../assets/npm.svg'
 import vite_svg from '../../assets/vite.svg'
 import babel_svg from '../../assets/babel.svg'
+import typescript_svg from '../../assets/typescript.svg'
 
 function OSFTReactSDK () {
+
+    const useTypeScriptIcon = useFlag('projects.osft-reactSDK-typescript')
+
     return (
         <IndividualProject>
             <ThinColumn>
@@ -34,7 +39,11 @@ function OSFTReactSDK () {
                         Built With
                     </BuiltWith>
                     <BuiltWithIcons>
-                        <TechStackIcon icon={javascript_svg} name='Javascript'/>
+                        { useTypeScriptIcon ? 
+                            <TechStackIcon icon={typescript_svg} name='TypeScript' />
+                            : 
+                            <TechStackIcon icon={javascript_svg} name='JavaScript'/>
+                        }
                         <TechStackIcon icon={react_svg} name='React'/>
                         <TechStackIcon icon={vite_svg} name='Vite'/>
                         <TechStackIcon icon={babel_svg} name='Babel'/>

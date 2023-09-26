@@ -45,7 +45,7 @@ function OSFTWebApp () {
                         <TechStackIcon icon={nodejs_svg} name="NodeJS"/>
                         <TechStackIcon icon={express_svg} name="ExpressJS"/>
                         <TechStackIcon icon={react_svg} name="React"/>
-                        <TechStackIcon icon={javascript_svg} name="Javascript"/>
+                        <TechStackIcon icon={javascript_svg} name="JavaScript"/>
                     </BuiltWithIcons>
                     <ProjectLinks>
                         <ProjectLink target="_blank" href="https://opensourcefeaturetoggles.com/home">Use OSFT</ProjectLink>
