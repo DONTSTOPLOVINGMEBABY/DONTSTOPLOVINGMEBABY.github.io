@@ -4,6 +4,7 @@ import {
     SkillCategory, 
     SkillRow, 
 } from "../../styles/skills.styled";
+import { useFlag } from "feature-toggles-react-sdk"
 import docker_svg from '../../assets/docker.svg'
 import firebase_svg from '../../assets/firebase.svg'
 import git_svg from '../../assets/git.svg'
@@ -11,10 +12,14 @@ import webpack_svg from '../../assets/webpack.svg'
 import jest_svg from '../../assets/jest.svg'
 import styled_components_svg from '../../assets/styled-components.svg'
 import railway_svg from '../../assets/railway.svg'
+import aws_svg from '../../assets/aws.svg'
 import SingleSkill from "./singleSkill";
 
 
 function MiscSkillsSection () {
+
+    const aws = useFlag('misc-icons.aws')
+
     return (
         <SkillCategory>
             <CategoryTitle>Miscellanous</CategoryTitle>
@@ -34,19 +39,25 @@ function MiscSkillsSection () {
                     icon={git_svg}
                     name="Git"
                     />
+                { aws ?  
+                    <SingleSkill
+                    icon={aws_svg}
+                    name="AWS"
+                    /> : 
+                    <SingleSkill
+                    icon={railway_svg}
+                    name="Railway"
+                    />
+                }
                     <SingleSkill
                     icon={docker_svg}
                     name="Docker"
                     />
-                    <SingleSkill
-                    icon={webpack_svg}
-                    name="Webpack"
-                    />
                 </SkillRow>
                 <SkillRow>
                     <SingleSkill
-                    icon={railway_svg}
-                    name="Railway"
+                    icon={webpack_svg}
+                    name="Webpack"
                     />
                     <SingleSkill
                     icon={styled_components_svg}
