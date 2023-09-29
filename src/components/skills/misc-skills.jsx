@@ -4,7 +4,7 @@ import {
     SkillCategory, 
     SkillRow, 
 } from "../../styles/skills.styled";
-import { useFlag } from "feature-toggles-react-sdk"
+import { useFlag, useFlagStatus } from "feature-toggles-react-sdk"
 import docker_svg from '../../assets/docker.svg'
 import firebase_svg from '../../assets/firebase.svg'
 import git_svg from '../../assets/git.svg'
@@ -19,6 +19,7 @@ import SingleSkill from "./singleSkill";
 function MiscSkillsSection () {
 
     const aws = useFlag('misc-icons.aws')
+    const { flagsReady, flagsError } = useFlagStatus()
 
     return (
         <SkillCategory>
@@ -39,7 +40,7 @@ function MiscSkillsSection () {
                     icon={git_svg}
                     name="Git"
                     />
-                { aws ?  
+                { flagsReady ? aws ?  
                     <SingleSkill
                     icon={aws_svg}
                     name="AWS"
@@ -47,7 +48,7 @@ function MiscSkillsSection () {
                     <SingleSkill
                     icon={railway_svg}
                     name="Railway"
-                    />
+                    /> : null
                 }
                     <SingleSkill
                     icon={docker_svg}
