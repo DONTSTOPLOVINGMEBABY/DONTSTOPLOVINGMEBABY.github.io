@@ -18,7 +18,7 @@ function Header () {
                 <NavItem href="#about">ABOUT</NavItem>
                 <NavItem href="#projects">PROJECTS</NavItem>
                 <NavItem href="#contact">CONTACT</NavItem>
-                <NavItem href="https://hjacobs-rest-api-production.up.railway.app/henryjacobs/resume" target="_blank">RESUME</NavItem>
+                {/* <NavItem href="https://hjacobs-rest-api-production.up.railway.app/henryjacobs/resume" target="_blank">RESUME</NavItem> */}
             </NavBar>
         </HeaderStyled> 
         : <HeaderStyled> 
