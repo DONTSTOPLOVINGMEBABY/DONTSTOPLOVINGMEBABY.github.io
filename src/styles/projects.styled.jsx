@@ -121,9 +121,6 @@ const IconBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @media (width: 1024px) {
-        font-size: smaller;
-    }
 `
 
 const IndividualIcon = styled.img`
@@ -132,14 +129,24 @@ const IndividualIcon = styled.img`
     &:hover {
         transform: scale(1.05);
     }
-  
+    @media (min-width: 1050px) and (max-width: 1250px) {
+       height: 30px;
+       width: 30px;
+    }
+    @media (min-width: 851px) and (max-width: 1049px) {
+       height: 25px;
+       width: 25px;
+    }
 `
 
 const IconName = styled.span`   
     margin-top: 4px;
     font-family: 'Poppins';
-    @media (max-width: 500px) {
-        font-size: smaller;
+    @media (min-width: 1050px) and (max-width: 1250px) {
+       font-size: smaller;
+    }
+    @media (min-width: 851px) and (max-width: 1049px) {
+       font-size: 12px;
     }
 `
 
