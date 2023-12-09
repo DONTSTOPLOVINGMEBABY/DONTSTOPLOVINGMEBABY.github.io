@@ -121,6 +121,9 @@ const IconBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (width: 1024px) {
+        font-size: smaller;
+    }
 `
 
 const IndividualIcon = styled.img`
@@ -129,6 +132,7 @@ const IndividualIcon = styled.img`
     &:hover {
         transform: scale(1.05);
     }
+  
 `
 
 const IconName = styled.span`   
