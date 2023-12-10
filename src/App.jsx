@@ -7,29 +7,30 @@ import ProjectSection from './components/projects/project'
 import SkillsSection from './components/skills/skills'
 import ContactSection from './components/contact/contact'
 import Footer from './components/footer/footer'
-import { FlagProvider } from 'feature-toggles-react-sdk'
+import { useFeature } from "feature-toggles-react-sdk"
 
-const osft_config =  {
-  apiKey : import.meta.env.VITE_OSFT_PROD_KEY, 
-  refreshRate : '10s', 
-}
 
 function App() {
-  return (
-    <FlagProvider config={osft_config}>
-      <AppPageStyled>
-        <LandingPage>
+  
+  const about = useFeature('about')
+  const projects = useFeature('whole-project-section')
+  const introduction = useFeature('introduction')
+  const skills = useFeature('skills-section')
+  const contact = useFeature('contact')
+  const footer = useFeature('footer')
+  const killSwitch = useFeature('kill-switch')
+
+  return !killSwitch ? <AppPageStyled>
+        { introduction ? <LandingPage>
           <Header/>
           <WelcomeAnimation />
-        </LandingPage>
-        <AboutSection />
-        <ProjectSection/>
-        <SkillsSection />
-        <ContactSection />
-        <Footer />
-      </AppPageStyled>
-    </FlagProvider> 
-  )
+        </LandingPage> : null }
+        { about ? <AboutSection /> : null } 
+        { projects ? <ProjectSection/> : null } 
+        { skills ? <SkillsSection /> : null }
+        { contact ? <ContactSection /> : null }
+        { footer ?  <Footer /> : null } 
+      </AppPageStyled> : null 
 }
 
 export default App

@@ -18,9 +18,6 @@ import SingleSkill from "./singleSkill";
 
 function MiscSkillsSection () {
 
-    const aws = useFlag('misc-icons.aws')
-    const { flagsReady, flagsError } = useFlagStatus()
-
     return (
         <SkillCategory>
             <CategoryTitle>Miscellanous</CategoryTitle>
@@ -40,16 +37,10 @@ function MiscSkillsSection () {
                     icon={git_svg}
                     name="Git"
                     />
-                { flagsReady ? aws ?  
                     <SingleSkill
                     icon={aws_svg}
                     name="AWS"
-                    /> : 
-                    <SingleSkill
-                    icon={railway_svg}
-                    name="Railway"
-                    /> : null
-                }
+                    /> 
                     <SingleSkill
                     icon={docker_svg}
                     name="Docker"
