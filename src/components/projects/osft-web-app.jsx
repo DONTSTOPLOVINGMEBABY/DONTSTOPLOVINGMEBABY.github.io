@@ -22,7 +22,7 @@ import redis_svg from "../../assets/redis.svg"
 
 function OSFTWebApp () {
     return (
-        <IndividualProject>
+        <IndividualProject id="osft">
             <ThinColumn>
                 <ProjectDetails>
                     <ProjectTitles>

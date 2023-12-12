@@ -19,7 +19,7 @@ import react_svg from "../../assets/react.svg"
 
 function FYTExample () {
     return (
-        <IndividualProject $margintop='30px'>
+        <IndividualProject id="react-youtube-clone" $margintop='30px' >
             <ThinColumn>
                 <ProjectDetails>
                     <ProjectTitles>
