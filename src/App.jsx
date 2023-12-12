@@ -26,7 +26,8 @@ function App() {
           <WelcomeAnimation />
         </LandingPage> : null }
         { about ? <AboutSection /> : null } 
-        { projects ? <ProjectSection/> : null } 
+        {/* { projects ? <ProjectSection/> : null }  */}
+        <ProjectSection />
         { skills ? <SkillsSection /> : null }
         { contact ? <ContactSection /> : null }
         { footer ?  <Footer /> : null } 
