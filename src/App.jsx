@@ -9,7 +9,6 @@ import ContactSection from './components/contact/contact'
 import Footer from './components/footer/footer'
 import { useFlagStatus } from 'feature-toggles-react-sdk'
 import scrollFromLink from './utils/easyScroll'
-
 import { useEffect } from 'react' 
 
 function App() {
