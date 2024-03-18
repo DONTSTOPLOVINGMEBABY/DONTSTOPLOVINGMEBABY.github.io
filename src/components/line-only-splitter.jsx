@@ -1,16 +1,14 @@
-import { 
-    FullSectionSplitterStyled,
-    LineFiller,  
-} from "../styles/fullSectionSplitter.styled";
+import {
+  FullSectionSplitterStyled,
+  LineFiller,
+} from '../styles/fullSectionSplitter.styled';
 
-function LineOnlySplitter ({
-    $margintop
-}) {
-    return (
-        <FullSectionSplitterStyled $margintop={$margintop}>
-            <LineFiller/>
-        </FullSectionSplitterStyled>
-    )
+function LineOnlySplitter({ $margintop }) {
+  return (
+    <FullSectionSplitterStyled $margintop={$margintop}>
+      <LineFiller />
+    </FullSectionSplitterStyled>
+  );
 }
 
-export default LineOnlySplitter
+export default LineOnlySplitter;
