@@ -54,7 +54,7 @@ function OSFTWebApp() {
             </ProjectLink>
             <ProjectLink
               target="_blank"
-              href="https://github.com/DONTSTOPLOVINGMEBABY/OSFT-Web-Application"
+              href="https://github.com/Open-Source-Feature-Toggles/backend"
             >
               View Source Code
             </ProjectLink>
