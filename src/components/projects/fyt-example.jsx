@@ -16,8 +16,11 @@ import TechStackIcon from './tech-stack-icon';
 import firebase_svg from '../../assets/firebase.svg';
 import javascript_svg from '../../assets/javascript.svg';
 import react_svg from '../../assets/react.svg';
+import { useFlag } from 'feature-toggles-react-sdk';
 
 function FYTExample() {
+  const fytLink = useFlag('project-elements.fyt-link');
+
   return (
     <IndividualProject id="react-youtube-clone" $margintop="30px">
       <ThinColumn>
@@ -40,12 +43,14 @@ function FYTExample() {
             <TechStackIcon icon={react_svg} name="React" />
           </BuiltWithIcons>
           <ProjectLinks>
-            <ProjectLink
-              target="_blank"
-              href="https://henryjacobs.us/React-YouTube-Clone/"
-            >
-              Surf Fake-YouTube
-            </ProjectLink>
+            {fytLink ? (
+              <ProjectLink
+                target="_blank"
+                href="https://henryjacobs.us/React-YouTube-Clone/"
+              >
+                Surf Fake-YouTube
+              </ProjectLink>
+            ) : null}
             <ProjectLink
               target="_blank"
               href="https://github.com/DONTSTOPLOVINGMEBABY/React-YouTube-Clone"
