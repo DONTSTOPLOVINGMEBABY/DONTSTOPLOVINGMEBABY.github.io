@@ -465,6 +465,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     height: 25px;
     width: 25px;
   }
+  @media (min-width: 0px) and (max-width: 550px) {
+    height: 35px;
+    width: 35px;
+  }
 `,HC=I.span`
   margin-top: 4px;
   font-family: 'Poppins';
@@ -472,6 +476,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     font-size: smaller;
   }
   @media (min-width: 851px) and (max-width: 1049px) {
+    font-size: 12px;
+  }
+  @media (min-width: 0px) and (max-width: 550px) {
     font-size: 12px;
   }
 `,Mc=I.div`
