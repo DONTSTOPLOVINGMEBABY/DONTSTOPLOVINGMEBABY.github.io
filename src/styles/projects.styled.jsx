@@ -136,6 +136,10 @@ const IndividualIcon = styled.img`
     height: 25px;
     width: 25px;
   }
+  @media (min-width: 0px) and (max-width: 550px) {
+    height: 35px;
+    width: 35px;
+  }
 `;
 
 const IconName = styled.span`
@@ -145,6 +149,9 @@ const IconName = styled.span`
     font-size: smaller;
   }
   @media (min-width: 851px) and (max-width: 1049px) {
+    font-size: 12px;
+  }
+  @media (min-width: 0px) and (max-width: 550px) {
     font-size: 12px;
   }
 `;
