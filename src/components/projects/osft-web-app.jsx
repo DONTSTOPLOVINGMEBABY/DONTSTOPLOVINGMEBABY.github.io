@@ -48,7 +48,7 @@ function OSFTWebApp() {
           <ProjectLinks>
             <ProjectLink
               target="_blank"
-              href="https://opensourcefeaturetoggles.com/home"
+              href="https://www.opensourcefeaturetoggles.com/home"
             >
               Use OSFT
             </ProjectLink>
