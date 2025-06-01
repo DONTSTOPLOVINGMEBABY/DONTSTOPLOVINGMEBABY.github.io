@@ -59,7 +59,8 @@ Error generating stack: `+o.message+`
   align-items: center;
   color: #ffffff;
   @media (max-width: 700px) {
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
   }
 `,ud=I.h1`
   padding: 0;
@@ -499,6 +500,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   border-radius: 5px;
   transition: 0.25s ease-in;
   transition-property: background-color color border;
+
+  @media (min-width: 851px) and (max-width: 930px) {
+    width: 140px;
+    font-size: 14px;
+  }
 
   &:hover {
     background-color: white;
