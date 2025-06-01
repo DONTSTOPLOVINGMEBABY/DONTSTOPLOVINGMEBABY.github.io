@@ -177,6 +177,11 @@ const ProjectLink = styled.a`
   transition: 0.25s ease-in;
   transition-property: background-color color border;
 
+  @media (min-width: 851px) and (max-width: 930px) {
+    width: 140px;
+    font-size: 14px;
+  }
+
   &:hover {
     background-color: white;
     color: #1b1b1b;
