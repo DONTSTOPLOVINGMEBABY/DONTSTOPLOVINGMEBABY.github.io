@@ -8,7 +8,8 @@ const HeaderStyled = styled.header`
   align-items: center;
   color: #ffffff;
   @media (max-width: 700px) {
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
