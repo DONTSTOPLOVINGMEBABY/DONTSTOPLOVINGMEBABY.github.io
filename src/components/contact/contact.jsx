@@ -12,8 +12,17 @@ import {
 import FullSectionSplitter from '../full-section-splitter';
 import gh_cat_svg from '../../assets/gh-cat.svg';
 import linkedin_svg from '../../assets/linkedin.svg';
+import { useFlag } from 'feature-toggles-react-sdk';
+import { useEffect } from 'react';
 
 function ContactSection() {
+
+  const connectWithMe = useFlag('contact-section.connect-with-me-message')
+
+  useEffect(() => {
+    console.log(connectWithMe)
+  }, [connectWithMe])
+
   return (
     <ContactSectionStyled id="contact">
       <FullSectionSplitter name="Contact" />
@@ -24,7 +33,7 @@ function ContactSection() {
         </Section>
         <Or>OR</Or>
         <Section>
-          <Prompt>Connect with me on social media</Prompt>
+          <Prompt>Connect with me on {connectWithMe ? 'GitHub and LinkedIn' : 'social media'}!</Prompt>
           <SocialLinks>
             <Link
               href="https://github.com/DONTSTOPLOVINGMEBABY"
