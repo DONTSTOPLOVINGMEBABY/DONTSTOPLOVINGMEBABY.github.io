@@ -42,7 +42,7 @@ function AboutSection() {
             My name's Henry, and I am a Fullstack Software Engineer.
             <br></br>
             <br></br>
-            I'm currently working as a Fullstack Engineer to build out Gooseberry's custom children's book line
+            I'm currently working as an engineer at Gooseberry, building and scaling their custom children's book line
             by using state of the art image models and prompt engineering techniques.
             <br></br>
             <br></br>
