@@ -29,7 +29,7 @@ function ContactSection() {
       <ContactInformation>
         <Section>
           <Prompt>Send me an email at</Prompt>
-          <Email>henryjacobscode@gmail.com</Email>
+          <Email>henrymjacobs@gmail.com</Email>
         </Section>
         <Or>OR</Or>
         <Section>
