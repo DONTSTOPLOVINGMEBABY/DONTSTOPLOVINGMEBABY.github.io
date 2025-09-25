@@ -26,14 +26,27 @@ function AboutSection() {
         </WrapPhoto>
         <DescribeMyself>
           <Bio>
-            My name is Henry Jacobs and I am a Full Stack Developer who is
+            {/* My name is Henry Jacobs and I am a Full Stack Developer who is
             passionate about computers and the positive impacts they can bring
             to people's lives. I first started programming at University in 2019
             and have been exploring the ins and outs of web development since
             2022 with my work on The Odin Project. I'm totally enthralled by
             computers and learning as much as I possibly can about them from the
             physical representation of bits to arranging pixels on the screen
-            with HTML and CSS.
+            with HTML and CSS. 
+            
+            ** Edited as of 9/25/2025
+
+            Also, if you are in dev tools reading this... hi :)
+            */}
+            My name's Henry, and I am a Fullstack Software Engineer.
+            <br></br>
+            <br></br>
+            I'm currently working as a Fullstack Engineer to build out Gooseberry's custom children's book line
+            by using state of the art image models and prompt engineering techniques.
+            <br></br>
+            <br></br>
+            I'm obsessed with learning... I get antsy just thinking about all of those unread books down at the library.
           </Bio>
           {about_me_ticker ? (
             <ScrollerContainer>
