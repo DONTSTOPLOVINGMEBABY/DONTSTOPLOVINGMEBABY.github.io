@@ -253,9 +253,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   color: #999999;
   font-size: 1rem;
   font-family: 'Poppins';
-  @media (max-width: 850px) {
-    text-align: center;
-  }
+
 `,MC=I.div`
   margin: 20px 0;
   display: flex;
