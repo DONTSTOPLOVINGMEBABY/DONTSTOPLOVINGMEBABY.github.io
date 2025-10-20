@@ -59,9 +59,7 @@ const Bio = styled.article`
   color: #999999;
   font-size: 1rem;
   font-family: 'Poppins';
-  @media (max-width: 850px) {
-    text-align: center;
-  }
+
 `;
 
 const ScrollerContainer = styled.div`
