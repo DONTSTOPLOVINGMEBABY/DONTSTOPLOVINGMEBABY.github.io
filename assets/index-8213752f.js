@@ -255,7 +255,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   font-family: 'Poppins';
 
 `,MC=I.div`
-  margin: 20px 0;
+  margin-bottom: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,7 +268,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     font-size: 1.75rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 0px;
   }
 `,OC=I.header`
@@ -354,7 +354,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     ${e=>e.direction==="toLeft"&&VC};
     ${e=>e.direction==="toRight"&&IC};
   }
-`;function go({text:e,direction:t}){return v.jsx(NC,{direction:t,children:v.jsx("span",{children:Array(12).fill(e).join(" ")})})}function FC(){const e=xt("About-Section.my-interests-ticker");return v.jsxs(jC,{id:"about",children:[v.jsx(Uy,{name:"About",side:"right"}),v.jsxs(LC,{children:[v.jsx(RC,{children:v.jsx(AC,{src:"https://hjacobs-rest-api-production.up.railway.app/henryjacobs/me",alt:"me!"})}),v.jsxs(_C,{children:[v.jsxs(DC,{children:["My name's Henry, and I am a Fullstack Software Engineer.",v.jsx("br",{}),v.jsx("br",{}),"I'm currently working as an engineer at Gooseberry, building and scaling their custom children's book line by using state of the art image models and prompt engineering techniques.",v.jsx("br",{}),v.jsx("br",{}),"I'm obsessed with learning... I get antsy just thinking about all of those unread books down at the library."]}),e?v.jsxs(MC,{children:[v.jsx("h3",{children:"Interests"}),v.jsx(go,{text:"Computer Science ·",direction:"toLeft"}),v.jsx(go,{text:"Finance & Global Economics ·",direction:"toRight"}),v.jsx(go,{text:"Mathematics ·",direction:"toLeft"}),v.jsx(go,{text:"Reading ·",direction:"toRight"})]}):null]})]})]})}const zC=I.section`
+`;function go({text:e,direction:t}){return v.jsx(NC,{direction:t,children:v.jsx("span",{children:Array(12).fill(e).join(" ")})})}function FC(){const e=xt("About-Section.my-interests-ticker");return v.jsxs(jC,{id:"about",children:[v.jsx(Uy,{name:"About",side:"right"}),v.jsxs(LC,{children:[v.jsx(RC,{children:v.jsx(AC,{src:"https://hjacobs-rest-api-production.up.railway.app/henryjacobs/me",alt:"me!"})}),v.jsxs(_C,{children:[v.jsxs(DC,{children:["My name's Henry, and I am a Fullstack Software Engineer.",v.jsx("br",{}),v.jsx("br",{}),"I'm currently working as an engineer at Gooseberry, building and scaling their custom children's book line by using state of the art image models and prompt engineering techniques.",v.jsx("br",{}),v.jsx("br",{}),"I'm obsessed with learning... I get antsy just thinking about all of those unread books down at the library."]}),e?v.jsxs(MC,{children:[v.jsx("h3",{style:{marginTop:"20px"},children:"Interests"}),v.jsx(go,{text:"Computer Science ·",direction:"toLeft"}),v.jsx(go,{text:"Finance & Global Economics ·",direction:"toRight"}),v.jsx(go,{text:"Mathematics ·",direction:"toLeft"}),v.jsx(go,{text:"Reading ·",direction:"toRight"})]}):null]})]})]})}const zC=I.section`
   width: 100%;
   height: fit-content;
   padding: 0 20px;
