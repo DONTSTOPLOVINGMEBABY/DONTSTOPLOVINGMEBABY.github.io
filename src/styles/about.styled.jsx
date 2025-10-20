@@ -89,5 +89,4 @@ export {
   Bio,
   ScrollerContainer,
   DescribeMyself,
-  InterestsTitle
 };

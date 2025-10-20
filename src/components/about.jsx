@@ -6,7 +6,6 @@ import {
   Bio,
   ScrollerContainer,
   DescribeMyself,
-  InterestsTitle
 } from '../styles/about.styled';
 import SectionSplitter from './section-splitter';
 import ScrollingText from './scroll-text';
