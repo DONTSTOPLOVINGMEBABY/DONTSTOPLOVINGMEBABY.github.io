@@ -63,7 +63,7 @@ const Bio = styled.article`
 `;
 
 const ScrollerContainer = styled.div`
-  margin: 20px 0;
+  margin-bottom: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@ const ScrollerContainer = styled.div`
     font-size: 1.75rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 0px;
   }
 `;
@@ -89,4 +89,5 @@ export {
   Bio,
   ScrollerContainer,
   DescribeMyself,
+  InterestsTitle
 };

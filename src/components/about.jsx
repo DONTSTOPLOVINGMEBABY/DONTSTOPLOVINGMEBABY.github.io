@@ -6,6 +6,7 @@ import {
   Bio,
   ScrollerContainer,
   DescribeMyself,
+  InterestsTitle
 } from '../styles/about.styled';
 import SectionSplitter from './section-splitter';
 import ScrollingText from './scroll-text';
@@ -50,7 +51,9 @@ function AboutSection() {
           </Bio>
           {about_me_ticker ? (
             <ScrollerContainer>
-              <h3>Interests</h3>
+              <h3 style={{
+                marginTop: '20px'
+              }}>Interests</h3>
               <ScrollingText
                 text="Computer Science &middot;"
                 direction="toLeft"
