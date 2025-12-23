@@ -48,7 +48,7 @@ function OSFTWebApp() {
           <ProjectLinks>
             <ProjectLink
               target="_blank"
-              href="https://energetic-celery-envproduction.up.railway.app/"
+              href="https://osft.henryjacobs.dev/"
             >
               Use OSFT
             </ProjectLink>
