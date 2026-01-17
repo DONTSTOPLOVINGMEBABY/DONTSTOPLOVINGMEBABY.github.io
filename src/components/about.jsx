@@ -42,11 +42,11 @@ function AboutSection() {
             My name's Henry, and I am a Fullstack Software Engineer.
             <br></br>
             <br></br>
-            I'm currently working as an engineer at Gooseberry, building and scaling their custom children's book line
-            by using state of the art image models and prompt engineering techniques.
+            I'm currently working as a Full Stack Engineer at RetailReady - a Y-Combinator backed startup that's building a unified approach to retail
+            compliance through AI and modern software engineering best practices.
             <br></br>
             <br></br>
-            I'm obsessed with learning... I get antsy just thinking about all of those unread books down at the library.
+            I'm also obsessed with learning... I get antsy just thinking about all of those unread books down at the library.
           </Bio>
           {about_me_ticker ? (
             <ScrollerContainer>
